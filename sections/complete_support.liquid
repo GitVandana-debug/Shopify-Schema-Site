@@ -1,0 +1,417 @@
+<section class="complete-support">
+            <div class="container">
+                <div class="bi-col">
+                    <div class="left-col">
+                        <img src="{{ section.settings.supplimental_facts | img_url: '' }}" width="2064" class="ll-delay supp-banner d-xs-none"
+                            alt="Supplemental Facts">
+
+                    </div>
+                    <div class="right-col">
+                        <h2 class="heading-lg">
+                           {{ section.settings.support_heading1 }}
+                        </h2>
+
+                        <img src="{{ section.settings.supplimental_facts | img_url: '' }}" class="supp-banner d-md-none ll-delay"
+                            alt="Supplemental Facts" width="600">
+
+                        <div class="list colored">
+                            {% for block in section.blocks %}
+                              {% if block.type == 'support_span_first' %}
+                                <span class="icon-heart">
+                                     {{ block.settings.support_span1 }}
+                                </span>
+                              {% endif %}
+                            {% endfor %}
+                             {% comment %}
+                            <span class="icon-heart">
+                                Urinary Health Support Blend
+                            </span>
+                            <span class="icon-heart">
+                                Vaginal pH Support <i>(Targeted Probiotic Blend)</i>
+
+                            </span>
+                          {% endcomment %}
+                        </div>
+                        <a href="{{ section.settings.buy_now_url }}"
+                            style="position: relative;
+z-index: 2;">
+                            <button class="lg fl">{{ section.settings.buy_now }}</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <h2 class="heading main txt-center showBr">
+                {{ section.settings.support_heading2 }}
+            </h2>
+            <div class="container">
+                <div class="colored-box red">
+                    <p class="box-header">
+                        <span class="icon-heart"></span>
+                         {{ section.settings.support_para1 }}
+                    </p>
+                    <h3 class="heading-xs">
+                       {{ section.settings.support_heading3 }}
+                    </h3>
+                    <div class="bi-col f-xs-column condensed">
+                        <div class="left-col">
+                            <p>
+                               {{ section.settings.support_para2 }}
+                                <br />
+                                <br />
+                            </p>
+                        </div>
+                        <div class="right-col">
+                            <p>
+                                {{ section.settings.support_para3 }}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bi-col bordered f-xs-column">
+                        <div class="left-col">
+                            <h3 class="heading-xs">
+                                {{ section.settings.support_heading4 }}
+                            </h3>
+                            <br />
+                            <p>
+                               {{ section.settings.support_para4 }}
+                            </p>
+                        </div>
+                        <div class="right-col">
+                            <p class="subtitle">
+                                {{ section.settings.support_para5 }}
+                            </p>
+                            <div class="list">
+                              {% for block in section.blocks %}
+                                 {% if block.type == 'support_span_second' %}
+                                    <span class="icon-heart">
+                                        {{ block.settings.support_span2 }}
+                                    </span>
+                                  {% endif %}
+                              {% endfor %}
+                              {% comment %}
+                                <span class="icon-heart">
+                                    Lactobacillus paracasei LPC-37
+
+                                </span>
+                            
+                                <span class="icon-heart">
+
+                                    Lactobacillus casei LC-11
+                                </span>
+
+                                <span class="icon-heart">
+
+                                    Lactobacillus rhamnosus HN001
+                                </span>
+
+                                <span class="icon-heart">
+
+                                    Lactobacillus acidophilus La-14
+                                </span>
+                                {% endcomment %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bi-col img-badge f-xs-column short">
+                        <div class="left-col">
+                            <img src="{{ section.settings.bacilli | img_url: '' }}" alt="Magnified Bacilli"
+                                class="bacilli  ll-delay">
+                        </div>
+                        <div class="right-col">
+                            <h3 class="heading-xs medium">
+                                 {{ section.settings.support_heading5 }}
+                            </h3>
+                            <br />
+                            <p>
+                                {{ section.settings.support_para6 }}
+                            </p>
+                            <p>
+                                 {{ section.settings.support_para7 }}
+                            </p>
+                            <br />
+                            <div class="list">
+                                {% for block in section.blocks %}
+                                  {% if block.type == 'support_span_third' %}
+                                  <span class="icon-heart">
+                                      {{ block.settings.support_span3 }}
+                                  </span>
+                                    {% endif %}
+                                {% endfor %}
+                              {% comment %}
+                                <span class="icon-heart">
+                                    Lactobacillus acidophilus La-14&reg;
+                                </span>
+                                <span class="icon-heart">
+                                    Lactoferrin
+                                </span>
+                              {% endcomment %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bi-col img-right f-xs-column inulin-box short">
+                        <div class="left-col">
+                            <h3 class="heading-xs">
+                                 {{ section.settings.support_heading6 }}
+                            </h3>
+                            <br />
+                            <p>
+                                {{ section.settings.support_para8 }}
+                            </p>
+                            <br />
+                            <div class="list">
+                                <span class="icon-heart">
+                                    <em>
+                                        {{ section.settings.support_span_normal1 }}
+                                    </em>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="right-col">
+                            <img src="{{ section.settings.inulin | img_url: '' }}" class="ll-delay" alt="Organic Inulin (from Organic Jerusalem artichokes)" >
+                        </div>
+                    </div>
+                </div>
+                <div class="colored-box red last-child hash-target" id="urinary-tract-health">
+                    <p class="box-header">
+                        <span class="icon-heart"></span>
+                        {{ section.settings.support_span_normal2 }}
+                    </p>
+                    <div class="bi-col f-xs-column b-bottom">
+                        <div class="left-col">
+                            <p>
+                                {{ section.settings.support_para9 }}
+                            </p>
+                        </div>
+                        <div class="right-col">
+                            <p>
+                                {{ section.settings.support_para10 }}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bi-col img-right b-bottom f-xs-column">
+                        <div class="left-col">
+                            <p class="subtitle">
+                               {{ section.settings.support_para11 }}
+                            </p>
+                            <br />
+                            <div class="right-pulled">
+                               {% for block in section.blocks %}
+                                 {% if block.type == 'support_span_fourth' %}
+                                    <span class="icon-heart">
+                                        {{ block.settings.support_span4 }}
+                                    </span>
+                                    <br class="d-xs-none" />
+                                  {% endif %}
+                                {% endfor %}
+                              {% comment %}
+                                <span class="icon-heart">
+                                    Garlic
+                                </span>
+                                <span class="icon-heart">
+                                    Vitamin C
+                                </span>
+                              {% endcomment %}
+                            </div>
+                        </div>
+                        <div class="right-col">
+                            <img src="{{ section.settings.berries | img_url: '' }}" class="lazyload" alt="CranBerries and Onions">
+                        </div>
+                    </div>
+                    <p class="footnote">
+                       {{ section.settings.support_para12 }}
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+{% schema %}
+  {
+    "name": "Complete Support Part",
+    "settings": [
+        {
+          "type": "image_picker",
+          "id": "supplimental_facts",
+          "label": "Supplimental Facts"
+        },
+        {
+          "type": "text",
+          "id": "support_heading1",
+          "label": "Support Heading 1"
+        },
+        {
+          "type": "text",
+          "id": "buy_now",
+          "label": "Buy Now"
+        },
+        {
+          "type": "url",
+          "id": "buy_now_url",
+          "label": "Buy Now URL",
+        },
+        {
+          "type": "textarea",
+          "id": "support_heading2",
+          "label": "Support Heading 2"
+        },
+        {
+          "type": "textarea",
+          "id": "support_para1",
+          "label": "Support Para 1"
+        },
+        {
+          "type": "textarea",
+          "id": "support_heading3",
+          "label": "Support Heading 3"
+        },
+        {
+          "type": "textarea",
+          "id": "support_para2",
+          "label": "Support Para 2"
+        },
+        {
+          "type": "textarea",
+          "id": "support_para3",
+          "label": "Support Para 3"
+        },
+        {
+          "type": "textarea",
+          "id": "support_heading4",
+          "label": "Support Heading 4"
+        },
+        {
+          "type": "textarea",
+          "id": "support_para4",
+          "label": "Support Para 4"
+        },
+        {
+          "type": "textarea",
+          "id": "support_para5",
+          "label": "Support Para 5"
+        },
+        {
+          "type": "image_picker",
+          "id": "bacilli",
+          "label": "Bacilli"
+        },
+        {
+          "type": "textarea",
+          "id": "support_heading5",
+          "label": "Support Heading 5"
+        },
+        {
+          "type": "textarea",
+          "id": "support_para6",
+          "label": "Support Para 6"
+        },
+        {
+          "type": "textarea",
+          "id": "support_para7",
+          "label": "Support Para 7"
+        },
+        {
+          "type": "textarea",
+          "id": "support_heading6",
+          "label": "Support Heading 6"
+        },
+        {
+          "type": "textarea",
+          "id": "support_para8",
+          "label": "Support Para 8"
+        },
+        {
+          "type": "textarea",
+          "id": "support_span_normal1",
+          "label": "Support Span Normal 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "inulin",
+          "label": "Inulin"
+        },
+        {
+          "type": "textarea",
+          "id": "support_span_normal2",
+          "label": "Support Span Normal 2"
+        },
+        {
+          "type": "textarea",
+          "id": "support_para9",
+          "label": "Support Para 9"
+        },
+        {
+          "type": "textarea",
+          "id": "support_para10",
+          "label": "Support Para 10"
+        },
+        {
+          "type": "textarea",
+          "id": "support_para11",
+          "label": "Support Para 11"
+        },
+        {
+          "type": "textarea",
+          "id": "support_para12",
+          "label": "Support Para 12"
+        },
+        {
+          "type": "image_picker",
+          "id": "berries",
+          "label": "Berries"
+        },
+    ],
+    "blocks": [
+    {
+      "type": "support_span_first",
+      "name": "Support Span First",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "support_span1",
+          "label": "Support Span 1"
+        },
+      ]
+    },
+    {
+      "type": "support_span_second",
+      "name": "Support Span Second",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "support_span2",
+          "label": "Support Span 2"
+        },
+      ]
+    },
+    {
+      "type": "support_span_third",
+      "name": "Support Span Third",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "support_span3",
+          "label": "Support Span 3"
+        },
+      ]
+    },
+    {
+      "type": "support_span_fourth",
+      "name": "Support Span Fourth",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "support_span4",
+          "label": "Support Span 4"
+        },
+      ]
+    }
+    ],
+    "presets": [
+                {
+                  "category": "Complete Support Part",
+                  "name": "Complete Support Section"
+                } 
+             ]
+  }
+{% endschema %}

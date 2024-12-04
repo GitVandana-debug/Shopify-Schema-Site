@@ -1,0 +1,269 @@
+<section class="testimonials-section">
+
+            <div class="container" id="testimonials">
+                <div class="bi-col">
+                    <div class="lf">
+                        <h2 class="heading txt-center">
+                            {{ section.settings.testimonial_heading }}
+                        </h2>
+                    </div>
+                    <div class="rf">
+                        <div class="header-bar">
+                            <div class="slide-nav">
+                                <button id="prev">
+                                    <i class="icon-arrow lf"></i>
+                                </button>
+                                <button id="next">
+                                    <i class="icon-arrow"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="carousel">
+                           <div class="carousel-card main-card">
+                            <script src="https://fast.wistia.com/embed/medias/{{ section.settings.testimonial_media1_url | split: '/' | last }}.jsonp" async></script>
+                            <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                                <div class="wistia_responsive_wrapper"
+                                     style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                    <div class="wistia_embed wistia_async_{{ section.settings.testimonial_media1_url | split: '/' | last }} seo=true videoFoam=true"
+                                         style="height:100%;position:relative;width:100%">
+                                        <div class="wistia_swatch"
+                                             style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                            <img src="{{ section.settings.testimonial_media1 }}"
+                                                 style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                                 alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="carousel-card second-card">
+
+                                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper"
+                                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <div class="wistia_embed wistia_async_{{ section.settings.testimonial_media2_url | split: '/' | last }} seo=true videoFoam=true"
+                                            style="height:100%;position:relative;width:100%">
+                                            <div class="wistia_swatch"
+                                                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                                <img src="{{ section.settings.testimonial_media2 }}"
+                                                    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                                    alt="" aria-hidden="true"
+                                                    onload="this.parentNode.style.opacity=1;" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% for block in section.blocks %}
+                            <div class="carousel-card">
+
+                                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper"
+                                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <div class="wistia_embed wistia_async_{{ block.settings.testimonial_block_url | split: '/' | last }} seo=true videoFoam=true"
+                                            style="height:100%;position:relative;width:100%">
+                                            <div class="wistia_swatch"
+                                                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                                <img src="{{ block.settings.testimonial_block }}"
+                                                    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                                    alt="" aria-hidden="true"
+                                                    onload="this.parentNode.style.opacity=1;" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          {% endfor %}
+                          {% comment %}
+                            <div class="carousel-card">
+
+                                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper"
+                                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <div class="wistia_embed wistia_async_1eot0z6py4 seo=true videoFoam=true"
+                                            style="height:100%;position:relative;width:100%">
+                                            <div class="wistia_swatch"
+                                                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                                <img src="https://fast.wistia.com/embed/medias/1eot0z6py4/swatch"
+                                                    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                                    alt="" aria-hidden="true"
+                                                    onload="this.parentNode.style.opacity=1;" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-card">
+
+                                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper"
+                                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <div class="wistia_embed wistia_async_rxfq88e0jm seo=true videoFoam=true"
+                                            style="height:100%;position:relative;width:100%">
+                                            <div class="wistia_swatch"
+                                                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                                <img src="https://fast.wistia.com/embed/medias/rxfq88e0jm/swatch"
+                                                    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                                    alt="" aria-hidden="true"
+                                                    onload="this.parentNode.style.opacity=1;" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-card">
+
+                                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper"
+                                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <div class="wistia_embed wistia_async_kuyip1syhj seo=true videoFoam=true"
+                                            style="height:100%;position:relative;width:100%">
+                                            <div class="wistia_swatch"
+                                                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                                <img src="https://fast.wistia.com/embed/medias/kuyip1syhj/swatch"
+                                                    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                                    alt="" aria-hidden="true"
+                                                    onload="this.parentNode.style.opacity=1;" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-card">
+
+                                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper"
+                                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <div class="wistia_embed wistia_async_w61kw7pfuh seo=true videoFoam=true"
+                                            style="height:100%;position:relative;width:100%">
+                                            <div class="wistia_swatch"
+                                                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                                <img src="https://fast.wistia.com/embed/medias/w61kw7pfuh/swatch"
+                                                    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                                    alt="" aria-hidden="true"
+                                                    onload="this.parentNode.style.opacity=1;" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-card">
+
+                                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper"
+                                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <div class="wistia_embed wistia_async_giznly5sis seo=true videoFoam=true"
+                                            style="height:100%;position:relative;width:100%">
+                                            <div class="wistia_swatch"
+                                                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                                <img src="https://fast.wistia.com/embed/medias/giznly5sis/swatch"
+                                                    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                                    alt="" aria-hidden="true"
+                                                    onload="this.parentNode.style.opacity=1;" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-card">
+
+                                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper"
+                                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <div class="wistia_embed wistia_async_ou3on8w0ff seo=true videoFoam=true"
+                                            style="height:100%;position:relative;width:100%">
+                                            <div class="wistia_swatch"
+                                                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                                <img src="https://fast.wistia.com/embed/medias/ou3on8w0ff/swatch"
+                                                    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                                    alt="" aria-hidden="true"
+                                                    onload="this.parentNode.style.opacity=1;" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-card">
+
+                                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper"
+                                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <div class="wistia_embed wistia_async_iiz481blst seo=true videoFoam=true"
+                                            style="height:100%;position:relative;width:100%">
+                                            <div class="wistia_swatch"
+                                                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                                <img src="https://fast.wistia.com/embed/medias/iiz481blst/swatch"
+                                                    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                                    alt="" aria-hidden="true"
+                                                    onload="this.parentNode.style.opacity=1;" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          {% endcomment %}
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+{% schema %}
+  {
+    "name": "Testimonial Part",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "testimonial_heading",
+        "label": "Testimonial Heading",
+      },
+      {
+        "type": "url",
+        "id": "testimonial_media1_url",
+        "label": "Testimonial Media 1 URL",
+      },
+      {
+        "type": "url",
+        "id": "testimonial_media1",
+        "label": "Testimonial Media 1",
+      },
+      {
+        "type": "url",
+        "id": "testimonial_media2_url",
+        "label": "Testimonial Media 2 URL",
+      },
+      {
+        "type": "url",
+        "id": "testimonial_media2",
+        "label": "Testimonial Media 2",
+      },
+    ],
+    "blocks": [
+      {
+        "type": "testimonial_block",
+        "name": "Testimonial Block",
+        "settings": [
+          {
+            "type": "url",
+            "id": "testimonial_block_url",
+            "label": "Testimonial Block URL",
+          },
+          {
+            "type": "url",
+            "id": "testimonial_block",
+            "label": "Testimonial Block",
+          },
+        ]
+      },
+    ],
+    "presets": [
+                {
+                  "category": "Testimonial Part",
+                  "name": "Testimonial Section"
+                } 
+             ]
+  }
+{% endschema %}

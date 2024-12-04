@@ -1,0 +1,144 @@
+  
+  <div class="splash-screen">
+    <div class="overlay-container">
+        <img src="{{ section.settings.splash_image | img_url: '' }}" class="img-fluid" alt="logo">
+        <div>
+            <img src="{{ section.settings.splash_image | img_url: '' }}" class="img-fluid" alt="logo">
+        </div>
+    </div>
+  </div>
+  
+  <div id="-header" class="section-header">
+    <header>
+      <div class="d-md-none">
+        <img class="logo" src="{{ section.settings.logo_tagline_image | img_url: '' }}">
+        <a href="{{ section.settings.testimonial_url }}" class="testimonial-mobile hash-link">{{ section.settings.testomonial }}</a>
+        <a class="shop-btn"
+          href="{{ section.settings.buy_now_url }}">
+          <button class="fl">
+              {{ section.settings.buy_now }}
+          </button>
+        </a>
+        <button class="menu-button" type="button" onclick="toggleMenu()"></button>
+      </div>
+      <div class="container  menu d-xs-none">
+        <a href="{{ section.settings.vaginal_health_url }}" class="hash-link">{{ section.settings.vaginal_health }}</a>
+        <a href="{{ section.settings.urinary_tract_url }}" class="hash-link">{{ section.settings.urinary_tract_health }}</a>
+        <a href="{{ section.settings.logo_tagline_url }}" class="logo-container">
+          <img src="{{ section.settings.logo_tagline_image | img_url: '' }}">
+        </a>
+        <a href="{{ section.settings.testimonial_url }}" class="hash-link">{{ section.settings.testomonial }}</a>
+        <a href="{{ section.settings.buy_now_url }}">
+          <button>
+              {{ section.settings.buy_now }}
+          </button>
+        </a>
+      </div>
+  </header>
+  <div class="menu-container">
+    <button class="menu-button-2" onclick="toggleMenu()">
+      <span>{{ section.settings.plus_sign }}</span>
+    </button>
+    <div class="backdrop" onclick="toggleMenu()">
+    </div>
+    <div class="mob-menu d-md-none" style="display: none">
+      <a href="{{ section.settings.logo_white_url }}">
+          <img src="{{ section.settings.logo_white_image | img_url: '' }}">
+      </a>
+      <a href="{{ section.settings.vaginal_health_url }}" class="hash-link">{{ section.settings.vaginal_health }}</a>
+      <a href="{{ section.settings.urinary_tract_url }}" class="hash-link">{{ section.settings.urinary_tract_health }}</a>
+      <a href="{{ section.settings.testimonial_url }}" class="hash-link">{{ section.settings.testomonial }}</a>
+      <a class="shop-btn"
+          href="{{ section.settings.buy_now_url }}">
+          <button class="fl">
+              {{ section.settings.buy_now }}
+          </button>
+      </a>
+    </div>
+  </div>
+</div>
+                   
+
+{% schema %}
+  {
+    "name": "Custom Header Part",
+    "settings": [
+        {
+          "type": "image_picker",
+          "id": "splash_image",
+          "label": "Splash Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo_tagline_image",
+          "label": "Logo Tagline Image"
+        },
+        {
+          "type": "url",
+          "id": "logo_tagline_url",
+          "label": "Logo Tagline URL"
+        },
+        {
+          "type": "text",
+          "id": "testomonial",
+          "label": "Testimonial"
+        },
+        {
+          "type": "text",
+          "id": "buy_now",
+          "label": "Buy Now"
+        },
+        {
+          "type": "text",
+          "id": "vaginal_health",
+          "label": "vaginal Health"
+        },
+        {
+          "type": "text",
+          "id": "urinary_tract_health",
+          "label": "Urinary Tract Health"
+        },
+        {
+          "type": "text",
+          "id": "plus_sign",
+          "label": "Plus Sign"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo_white_image",
+          "label": "Logo White Image"
+        },
+        {
+          "type": "url",
+          "id": "logo_white_url",
+          "label": "Logo White URL"
+        },
+        {
+          "type": "url",
+          "id": "testimonial_url",
+          "label": "Testimonial URL",
+        },
+        {
+          "type": "url",
+          "id": "vaginal_health_url",
+          "label": "vaginal Health URL",
+        },
+        {
+          "type": "url",
+          "id": "urinary_tract_url",
+          "label": "Urinary Tract URL",
+        },
+        {
+          "type": "url",
+          "id": "buy_now_url",
+          "label": "Buy Now URL",
+        }
+    ],
+    "presets": [
+                  {
+                    "category": "Custom Header Part",
+                    "name": "Custom Header Part Section"
+                  } 
+               ]
+  }
+{% endschema %}

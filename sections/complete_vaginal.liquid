@@ -1,0 +1,193 @@
+
+   <div class="">
+           
+    <div class="hero-section">
+        <div class="container bi-col">
+            <div class="left-col">
+                
+                <img src="{{ section.settings.lovebug_product_image | img_url: '' }}" alt="LoveBug Product" id="prod-img">
+                <div class="list  d-md-none">
+                   {% for block in section.blocks %}
+                      <span class="icon-heart">
+                          {{ block.settings.complete_vaginal_text }}
+                      </span>
+                   {% endfor %}
+                  {% comment %}
+                    <span class="icon-heart">
+                        Relieve Occasional Odor & Discharge
+                    </span>
+                    <span class="icon-heart">
+                        Lessen Bacterial Vaginitis Recurrences
+                    </span>
+                    <span class="icon-heart">
+                        Lessen UTI Recurrences
+                    </span>
+                    {% endcomment %}
+                </div>
+                <a href="{{ section.settings.buy_now_url }}"
+                    style="position: relative;
+    z-index: 2;">
+                    <button class="lg fl  d-md-none">{{ section.settings.buy_now }}</button>
+                </a>
+                <a href="{{ section.settings.testimonial_url }}" class="testimonial-hero d-md-none hash-link">{{ section.settings.testimonials }}</a>
+            </div>
+            <div class="right-col condensed">
+                <h1 class="heading-sm">
+                    <img src="{{ section.settings.made_in_us_image | img_url: '' }}">
+                    {{ section.settings.complete_text }}
+                    <br />
+                    {{ section.settings.urinary_tract }}
+                    <br />
+                </h1>
+                <p class="subtitle">
+                    {{ section.settings.text_1 }}
+                </p>
+                <p class="large-text">
+                   {{ section.settings.text_2 }}
+                    <br />
+                </p>
+                <div class="list d-md-grid">
+                  {% for block in section.blocks %}
+                    <span class="icon-heart">
+                        {{ block.settings.complete_vaginal_text }}
+                    </span>
+                  {% endfor %}
+                  {% comment %}
+                    <span class="icon-heart">
+                        Relieve Occasional Odor & Discharge
+                    </span>
+                    <span class="icon-heart">
+                        Lessen Bacterial Vaginitis Recurrences
+                    </span>
+                    <span class="icon-heart">
+                        Lessen UTI Recurrences
+                    </span>
+                  {% endcomment %}
+                </div>
+                <a href="{{ section.settings.buy_now_url }}">
+                    <button class="lg fl d-md-block">{{ section.settings.buy_now }}</button>
+                </a>
+            </div>
+        </div>
+        <div class="hash-target" id="vaginal-health"></div>
+        <div class="main-video">
+        </div>
+        <br />
+        <p class="txt-center cap small-title center">
+            {{ section.settings.para_text_1 }}
+        </p>
+        <div class="container  p-rel">
+            <div class="aaogf-badge center">
+                <img src="{{ section.settings.aaogf_badge_image | img_url: '' }}">
+                <div>
+                    <p class="title">
+                       {{ section.settings.para_text_2 }}
+                    </p>
+                    <p class="footnote">
+                        {{ section.settings.para_text_3 }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+{% schema %}
+  {
+    "name": "Complete Vaginal Part",
+    "settings": [
+        {
+          "type": "image_picker",
+          "id": "lovebug_product_image",
+          "label": "Love Bug Product Image"
+        },
+        {
+          "type": "url",
+          "id": "testimonial_url",
+          "label": "Testimonial URL",
+        },
+        {
+          "type": "url",
+          "id": "buy_now_url",
+          "label": "Buy Now URL",
+        },
+       {
+          "type": "text",
+          "id": "testimonials",
+          "label": "Testimonials",
+        },
+        {
+          "type": "text",
+          "id": "buy_now",
+          "label": "Buy Now",
+        },
+        {
+          "type": "image_picker",
+          "id": "made_in_us_image",
+          "label": "Made In Us Image"
+        },
+        {
+          "type": "text",
+          "id": "complete_text",
+          "label": "Complete Text",
+        },
+        {
+          "type": "text",
+          "id": "urinary_tract",
+          "label": "Urinary tract Text",
+        },
+        {
+          "type": "text",
+          "id": "text_1",
+          "label": "Text1",
+        },
+        {
+          "type": "text",
+          "id": "text_2",
+          "label": "Text2",
+        },
+      {
+          "type": "image_picker",
+          "id": "aaogf_badge_image",
+          "label": "Aaogf Badge Image"
+        },
+        {
+          "type": "text",
+          "id": "para_text_1",
+          "label": "Para Text1",
+        },
+        {
+          "type": "text",
+          "id": "para_text_2",
+          "label": "Para Text2",
+        },
+       {
+          "type": "text",
+          "id": "para_text_3",
+          "label": "Para Text3",
+        }
+        
+    ],
+    "blocks": [
+     {
+      "type": "complete_vaginal_text",
+      "name": "Complete Vaginal text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "complete_vaginal_text",
+          "label": "Complete Vaginal text"
+        },
+      ]
+     }
+    ],       
+   "presets": [
+                {
+                  "category": "Complete Vaginal Part",
+                  "name": "Complete Vaginal Section"
+                } 
+             ]
+  }
+{% endschema %}

@@ -1,0 +1,172 @@
+ <footer id="-footer" class="">
+        <footer class="blue-bg">
+            <div class="d-md-none">
+                <img class="logo" src="{{ section.settings.logo_white | img_url: '' }}">
+                <button class="menu-button" onclick="toggleMenu()"></button>
+            </div>
+
+            <div class="container menu">
+                <a href="{{ section.settings.vaginal_health_url }}" class="hash-link">{{ section.settings.vaginal_health }}</a>
+                <a href="{{ section.settings.urinary_tract_url }}" class="hash-link">{{ section.settings.urinary_tract }}</a>
+                <a href="{{ section.settings.logo_footer_url }}">
+                    <img src="{{ section.settings.logo_footer | img_url: '' }}">
+                </a>
+                <a href="{{ section.settings.buy_now_url }}">
+                    <button>
+                        {{ section.settings.buy_now }}
+                    </button>
+                </a>
+            </div>
+            <div class="container">
+                <div class="tri-col f-xs-column">
+                    <div>
+                        <p>
+                            {{ section.settings.address_details }}
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <b> {{ section.settings.customer_service }} </b>
+                            <br />
+                            <a href="mailto:{{ section.settings.mail }}">
+                                {{ section.settings.mail }}
+                            </a>
+                            <div class="divider"></div>
+                            <a href="{{ section.settings.terms_url }}">   {{ section.settings.terms }} </a> / <a
+                                href="{{ section.settings.privacy_url }}"> {{ section.settings.privacy }}
+                            </a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            {{ section.settings.disclaimer }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bar txt-center">
+                {{ section.settings.right_reserved }}
+            </div>
+        </footer>
+
+    </footer>
+
+    <ul hidden>
+        <li id="a11y-refresh-page-message"> {{ section.settings.list_item1 }} </li>
+        <li id="a11y-new-window-message"> {{ section.settings.list_item2 }} </li>
+    </ul>
+
+
+{% schema %}
+  {
+     "name": "Custom Footer Part",
+     "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo_white",
+          "label": "Logo White"
+        },
+        {
+          "type": "text",
+          "id": "vaginal_health",
+          "label": "vaginal Health",
+        },
+        {
+          "type": "text",
+          "id": "urinary_tract",
+          "label": "Urinary Tract",
+        },
+        {
+          "type": "url",
+          "id": "vaginal_health_url",
+          "label": "vaginal Health URL",
+        },
+        {
+          "type": "url",
+          "id": "urinary_tract_url",
+          "label": "Urinary Tract URL",
+        },
+        {
+          "type": "image_picker",
+          "id": "logo_footer",
+          "label": "Logo Footer"
+        },
+        {
+          "type": "url",
+          "id": "logo_footer_url",
+          "label": "Logo Footer URL",
+        },
+        {
+          "type": "text",
+          "id": "buy_now",
+          "label": "Buy Now"
+        },
+        {
+          "type": "url",
+          "id": "buy_now_url",
+          "label": "Buy Now URL",
+        },
+        {
+          "type": "textarea",
+          "id": "address_details",
+          "label": "Address Details"
+        },
+        {
+          "type": "text",
+          "id": "customer_service",
+          "label": "Customer Service"
+        },
+        {
+          "type": "textarea",
+          "id": "mail",
+          "label": "Mail"
+        },
+        {
+          "type": "text",
+          "id": "terms",
+          "label": "Terms"
+        },
+        {
+          "type": "text",
+          "id": "privacy",
+          "label": "Privacy",
+        },
+        {
+          "type": "url",
+          "id": "terms_url",
+          "label": "Terms URL"
+        },
+        {
+          "type": "url",
+          "id": "privacy_url",
+          "label": "Privacy URL",
+        },
+        {
+          "type": "textarea",
+          "id": "disclaimer",
+          "label": "Disclaimer",
+        },
+        {
+          "type": "textarea",
+          "id": "right_reserved",
+          "label": "Right Reserved",
+        },
+         {
+          "type": "textarea",
+          "id": "list_item1",
+          "label": "List Item 1"
+        },
+        {
+          "type": "textarea",
+          "id": "list_item2",
+          "label": "List Item 2"
+        },
+     ],
+    "presets": [
+                {
+                  "category": "Custom Footer Part",
+                  "name": "Custom Footer Section"
+                } 
+             ]
+  }
+{% endschema %}

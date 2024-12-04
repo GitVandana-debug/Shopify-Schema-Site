@@ -1,0 +1,211 @@
+<section class="bacterial-balance blue-bg">
+    <div class="container">
+        <h2 class="heading smaller txt-center">
+             {{ section.settings.balance_bacteria_heading1 }}
+            <br class="d-md-none">
+             {{ section.settings.balance_bacteria_heading2 }}
+            <br class="d-xs-none" />
+             {{ section.settings.balance_bacteria_heading3 }}
+            <br class="d-md-none">
+             {{ section.settings.balance_bacteria_heading4 }}
+        </h2>
+        <p class="subtitle  txt-center">
+            {{ section.settings.balance_bacteria_para1 }}
+        </p>
+        <div class="bi-col f-xs-column">
+            <div class="left-col">
+              {% for block in section.blocks %}
+                {% if block.type == 'balance_bacteria_left' %}
+                <div class="item">
+                    <img src="{{ block.settings.balance_bacteria_left | img_url: '' }}" class="lazyload" width="60"
+                        height="62">
+                    <p>
+                        {{ block.settings.balance_bacteria_para_left }}
+                    </p>
+                </div>
+                  {% endif %}
+              {% endfor %}
+               {% comment %}
+                <div class="item">
+                    <img src="{{ 'smoking.svg' | asset_url }}" class="lazyload" width="60"
+                        height="62">
+                    <p>
+                        <b>Hormonal changes</b> from taking birth control, or pregnancy, or even sometimes
+                        menstruation.
+                    </p>
+                </div>
+
+                <div class="item">
+                    <img src="{{ 'smoking-2.svg' | asset_url }}" class="lazyload" width="60"
+                        height="62">
+                    <p>
+                        <b> Smoking.</b> Women who smoke, even women exposed to second-hand smoke, are at higher
+                        risk for
+                        recurrent
+                        BV at more than twice the level of non-smokers. Smoking not only weakens your immune
+                        system,
+                        it
+                        actually creates vaginal secretions that attack healthy vaginal lactobacilli and
+                        promotes
+                        bad
+                        bacteria.
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="{{ 'glucometer.svg' | asset_url }}" class="lazyload" width="60"
+                        height="62">
+                    <p>
+                        <b>Blood Sugar Issues</b> is a risk factor for Yeast Infections. The reason for this is
+                        simple,
+                        yeast feeds
+                        off of sugar. If diabetes isn't well-controlled, then blood sugar levels can spike. This
+                        increase
+                        can lead to sugar in your vaginal mucus which causes vaginal candida yeast to grow.
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="{{ 'immunity.svg' | asset_url }}" class="lazyload" width="60"
+                        height="62">
+                    <p>
+                        <b>A weak immune system</b> provides an environment for Candida yeast to grow and take
+                        over.
+                    </p>
+                </div>
+                {% endcomment %}
+            </div>
+            <div class="right-col">
+              {% for block in section.blocks %}
+                {% if block.type == 'balance_bacteria_right' %}
+                <div class="item">
+                    <img src="{{ block.settings.balance_bacteria_right | img_url: '' }}" class="lazyload" width="60"
+                        height="62">
+                    <p>
+                        {{ block.settings.balance_bacteria_para_right }}
+                    </p>
+                </div>
+                {% endif %}
+              {% endfor %}
+              {% comment %}
+                <div class="item">
+                    <img src="{{ 'new-sex.svg' | asset_url }}" class="lazyload" width="60"
+                        height="62">
+                    <p>
+                        <b>Having sex with a new partner.</b> BV is not an STI, however many doctors believe
+                        that a
+                        new
+                        partner's
+                        genital chemistry can alter your vaginal bacteria balance enough to trigger BV.
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="{{ 'hygine.svg' | asset_url }}" class="lazyload" width="60"
+                        height="62">
+                    <p>
+                        <b>Improper hygiene,</b> such as wiping back to front or having anal then vaginal sex
+                        without
+                        cleaning up
+                        in between.
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="{{ 'underwear.svg' | asset_url }}" class="lazyload" width="60"
+                        height="62">
+                    <p>
+                        <b>Leaving tampons or pads in too long</b> can lead to yeast or other infections.
+
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="{{ 'tampons.svg' | asset_url }}" class="lazyload" width="60"
+                        height="62">
+                    <p>
+                        <b>Tight underwear or clothes that don’t breathe well</b> create a warm, moist
+                        environment.
+                        Sitting
+                        around
+                        in damp sweaty workout clothes or a wet swimsuit is not good either. Candida yeast likes
+                        moist and
+                        wet.
+                    </p>
+                </div>
+                {% endcomment %}
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+{% schema %}
+  {
+    "name": "Bacterial Balance Part",
+    "settings": [
+       {
+          "type": "textarea",
+          "id": "balance_bacteria_heading1",
+          "label": "Balance Bacteria Heading1"
+        },
+        {
+          "type": "textarea",
+          "id": "balance_bacteria_heading2",
+          "label": "Balance Bacteria Heading2"
+        },
+        {
+          "type": "textarea",
+          "id": "balance_bacteria_heading3",
+          "label": "Balance Bacteria Heading3"
+        },
+        {
+          "type": "textarea",
+          "id": "balance_bacteria_heading4",
+          "label": "Balance Bacteria Heading4"
+        },
+        {
+          "type": "textarea",
+          "id": "balance_bacteria_para1",
+          "label": "Balance Bacteria Para1"
+        },    
+    ],
+    "blocks": [
+    {
+      "type": "balance_bacteria_left",
+      "name": "Balance Bacteria Left",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "balance_bacteria_left",
+          "label": "Balance Bacteria Left"
+        },
+        {
+          "type": "textarea",
+          "id": "balance_bacteria_para_left",
+          "label": "Balance Bacteria Para Left"
+        },
+      ]
+    },
+    {
+      "type": "balance_bacteria_right",
+      "name": "Balance Bacteria Right",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "balance_bacteria_right",
+          "label": "Balance Bacteria Right"
+        },
+        {
+          "type": "textarea",
+          "id": "balance_bacteria_para_right",
+          "label": "Balance Bacteria Para Right"
+        },
+      ]
+    }
+    ],
+    "presets": [
+                {
+                  "category": "Bacterial Balance Part",
+                  "name": "Bacterial Balance Section"
+                } 
+             ]
+  }
+{% endschema %}

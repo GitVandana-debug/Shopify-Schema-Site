@@ -1,0 +1,74 @@
+<section class="uti-banner blue-bg">
+    <div class="container">
+        <div class="bi-col">
+            <div class="left-col">
+                <h3 class="heading-sm">
+                    {{ section.settings.uti_banner_heading1 }}
+                </h3>
+                <p class="subtitle xs">{{ section.settings.uti_banner_para1 }}</p>
+            </div>
+            <div class="right-col">
+                <p class="sub-text">
+                    {{ section.settings.uti_banner_para2 }}
+                </p>
+                <p>
+                    {{ section.settings.uti_banner_para3 }}
+                </p>
+                <div class="dropdown-tag">
+                    {{ section.settings.uti_banner_para4 }}
+                    <i class="icon-down-arrow"></i>
+                </div>
+                <div class="d-relative">
+                    <div class="dropdown-content">
+                        {{ section.settings.uti_banner_para5 }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "UTI Banner Part",
+    "settings": [
+        {
+          "type": "textarea",
+          "id": "uti_banner_heading1",
+          "label": "UTI Banner Heading1"
+        },
+        {
+          "type": "textarea",
+          "id": "uti_banner_para1",
+          "label": "UTI Banner Para1"
+        },
+        {
+          "type": "textarea",
+          "id": "uti_banner_para2",
+          "label": "UTI Banner Para2"
+        },
+        {
+          "type": "textarea",
+          "id": "uti_banner_para3",
+          "label": "UTI Banner Para3"
+        },
+        {
+          "type": "textarea",
+          "id": "uti_banner_para4",
+          "label": "UTI Banner Para4"
+        },
+        {
+          "type": "textarea",
+          "id": "uti_banner_para5",
+          "label": "UTI Banner Para5"
+        },
+    ],
+    "presets": [
+                {
+                  "category": "UTI Banner Part",
+                  "name": "UTI Banner Section"
+                } 
+             ]
+  }
+{% endschema %}

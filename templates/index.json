@@ -1,0 +1,807 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "complete_vaginal_6rjdby": {
+      "type": "complete_vaginal",
+      "blocks": {
+        "complete_vaginal_text_riUHc9": {
+          "type": "complete_vaginal_text",
+          "settings": {
+            "complete_vaginal_text": "Lessen Yeast Infection Recurrences"
+          }
+        },
+        "complete_vaginal_text_xfcrYT": {
+          "type": "complete_vaginal_text",
+          "settings": {
+            "complete_vaginal_text": "Relieve Occasional Odor & Discharge"
+          }
+        },
+        "complete_vaginal_text_6LFq8V": {
+          "type": "complete_vaginal_text",
+          "settings": {
+            "complete_vaginal_text": "Lessen Bacterial Vaginitis Recurrences"
+          }
+        },
+        "complete_vaginal_text_g68rHf": {
+          "type": "complete_vaginal_text",
+          "settings": {
+            "complete_vaginal_text": "Lessen UTI Recurrences"
+          }
+        }
+      },
+      "block_order": [
+        "complete_vaginal_text_riUHc9",
+        "complete_vaginal_text_xfcrYT",
+        "complete_vaginal_text_6LFq8V",
+        "complete_vaginal_text_g68rHf"
+      ],
+      "settings": {
+        "lovebug_product_image": "shopify://shop_images/lovebug-product.png",
+        "testimonial_url": "#",
+        "buy_now_url": "#",
+        "testimonials": "Testimonials",
+        "buy_now": "Buy Now",
+        "made_in_us_image": "shopify://shop_images/made-in-us.svg",
+        "complete_text": "Complete Vaginal",
+        "urinary_tract": "& Urinary Tract Support",
+        "text_1": "Effective, natural solutions for living your best life",
+        "text_2": "Maintain vaginal flora and optimal vaginal and urinary tract pH to help...",
+        "aaogf_badge_image": "shopify://shop_images/aaogf-badge.webp",
+        "para_text_1": "LoveBug® is a Proud Sponsor of the:",
+        "para_text_2": "American association of obstetricians and gynecologists foundation",
+        "para_text_3": "Founded April 19, 1888"
+      }
+    },
+    "health_secret_BLG7h4": {
+      "type": "health_secret",
+      "settings": {
+        "secret_text": "Secret to Improved Vaginal Health",
+        "secret_health_image": "shopify://shop_images/secret-health-lf.webp",
+        "right_heading": "Concerned about Yeast Infections and Bacterial Vaginosis?",
+        "right_textarea1": "You are not alone",
+        "right_textarea2": "Not only will most women have to deal with one or both of these two common forms of vaginitis at some point in their lives, many will get infections over and over again.",
+        "right_textarea3": "Vaginitis affects women not just physically, but sexually and emotionally as well. It can be especially hard on self-esteem. When an outbreak occurs, women may feel embarrassed in addition to the concern of how this will affect their overall health.",
+        "left_heading": "New Breakthrough in Vaginal Health",
+        "left_textarea1": "Today, we know much more about why women have these vaginal health issues than ever before.",
+        "left_textarea2": "By taking a pro-active approach to their vaginal health, women can help prevent these and other vaginal issues from occurring in the first place...",
+        "left_textarea3": "Because when it comes to vaginitis – <strong>PREVENTION</strong> is key. However, should you get an infection, it is important to contact your doctor.",
+        "right_coloured_text1": "Concerned about",
+        "right_coloured_text2": "Vaginal Odor?",
+        "right_coloured_textarea1": "A slight vaginal odor is normal, and can vary throughout a woman’s menstrual cycle. There is typically more discharge mid-cycle, which can have some odor, and some odor after sex is common.",
+        "right_coloured_textarea2": "However, lasting unpleasant vaginal odor is most likely from having unbalanced vaginal bacteria.",
+        "right_flower_image": "shopify://shop_images/right-flowers.png",
+        "flower_image": "shopify://shop_images/flowers.png"
+      }
+    },
+    "ph_maintenance_ka7CzY": {
+      "type": "ph_maintenance",
+      "settings": {
+        "ph_heading1": "Maintaining",
+        "ph_sub_heading1": "a Healthy Vaginal pH",
+        "ph_para1": "Yes, your vagina has a pH and your OB-GYN is very concerned about it. You should be too! Why?...",
+        "ph_para2": "<b>Because your vaginal health is directly linked to your Vaginal pH.</b> If it gets too\n                                high (too\n                                alkaline) then\n                                you create an environment for bad bacteria or yeast to take over and cause an infection.",
+        "ph_para3": "A normal healthy vagina comes has normal vaginal pH around 3.8 to 4.5, which if you\n                                remember\n                                from\n                                chemistry class, means an acidic environment. <b>That acidic environment is everything\n                                    when\n                                    it comes\n                                    to\n                                    your vaginal health – it’s your vagina’s natural defense system!</b>",
+        "ph_para4": "A vaginal pH above 4.5 is where you can start having problems because it can make you\n                                susceptible to\n                                the\n                                growth of bad, infection-causing bacteria or yeast.",
+        "vaginal_ph_scale": "shopify://shop_images/vaginal-ph-scale.svg",
+        "ph_heading2": "Your Vaginal<br> Microbiome",
+        "ph_para5": "What is Bacterial Vaginosis?",
+        "ph_para6": "<b>Bacterial Vaginosis</b>, or BV for short, is a bacterial infection in the vagina. BV affects\n                        about a\n                        third\n                        of all women. However, it’s a much higher percentage for <b>single sexually active women</b>,\n                        and\n                        also\n                        high for\n                        certain ethnic groups like <b>black women</b>. Even higher for <b>smokers</b>.\n                        <br>\n                        <br>\n                        <b>BV is directly triggered by a rise in vaginal pH</b>, which causes the growth of a bad\n                        bacteria\n                        called\n                        Gardnerella vaginalis, that is naturally found in a healthy vagina in small amounts.\n                        <br>\n                        <br>\n                        However, Gardnerella vaginalis can quickly grow in the vagina, and become the dominant bacteria,\n                        resulting in an infection when vaginal bacteria is not balanced.",
+        "microbiome": "shopify://shop_images/microbiome.webp",
+        "ph_heading3": "Your Vaginal<br> Microbiome",
+        "ph_para7": "What is Bacterial Vaginosis?",
+        "ph_para8": "<b>Bacterial Vaginosis</b>, or BV for short, is a bacterial infection in the vagina. BV\n                                affects\n                                about a\n                                third\n                                of all women. However, it’s a much higher percentage for <b>single sexually active\n                                    women</b>,\n                                and\n                                also\n                                high for\n                                certain ethnic groups like <b>black women</b>. Even higher for <b>smokers</b>.\n                                <br>\n                                <br>\n                                <b>BV is directly triggered by a rise in vaginal pH</b>, which causes the growth of a\n                                bad\n                                bacteria\n                                called\n                                Gardnerella vaginalis, that is naturally found in a healthy vagina in small amounts.\n                                <br>\n                                <br>\n                                However, Gardnerella vaginalis can quickly grow in the vagina, and become the dominant\n                                bacteria,\n                                resulting in an infection when vaginal bacteria is not balanced.",
+        "ph_para9": "Did you know that, next to your gut, you’ve <br class=\"d-none d-md-inli\">got more bacteria, both good\n                            and bad, in your vagina than\n                            anywhere else in your body?",
+        "ph_para10": "<b>This is called your vaginal microbiome.</b>\n                            Science has discovered that it's the bacterial balance in your vaginal microbiome,\n                            maintaining\n                            enough\n                            healthy bacteria down there to keep your vagina acidic, that is key to maintaining vaginal\n                            health.",
+        "ph_para11": "Healthy “probiotic” vaginal bacteria produce lactic acid that acidifies the vagina. And it’s\n                            that\n                            healthy acidic environment in the vagina that keeps yeast infections and bacterial vaginosis\n                            at\n                            bay!",
+        "ph_heading4": "Maintaining Vaginal Bacteria <br>Balance",
+        "ph_para12": "What is a Vagina Yeast Infection?",
+        "ph_para13": "<b>Vaginal Yeast Infections</b> are known as thrush or just yeast infections. 75% of women will\n                        get\n                        at\n                        least\n                        one yeast infection in their life. Doctors see tens of millions of new cases a year.\n                        <br>\n                        <br>\n                        Different than a bacterial infection, Vaginal Yeast Infections are caused by a specific type of\n                        yeast\n                        called Candida albicans (Candida). Candida yeast is a very opportunistic fungus. It resides in\n                        moist\n                        areas of the vagina just waiting for an opportunity to strike... a moment of weakness and it can\n                        take\n                        over quickly causing an infection!\n                        <br>\n                        <br>\n                        All women have this yeast in our bodies, that’s normal. But if Candida is not kept in check,\n                        then it\n                        can\n                        grow rapidly and overpower your vaginal microbiome. It’s not uncommon for some women to get\n                        three,\n                        four\n                        or sometimes more yeast infections in a year.",
+        "ph_heading5": "Maintaining Vaginal<br> Bacteria Balance",
+        "ph_para14": "What is a Vagina Yeast Infection?",
+        "ph_para15": "<b>Vaginal Yeast Infections</b> are known as thrush or just yeast infections. 75% of\n                                women\n                                will get\n                                at\n                                least\n                                one yeast infection in their life. Doctors see tens of millions of new cases a year.\n                                <br>\n                                <br>\n                                Different than a bacterial infection, Vaginal Yeast Infections are caused by a specific\n                                type\n                                of\n                                yeast\n                                called Candida albicans (Candida). Candida yeast is a very opportunistic fungus. It\n                                resides\n                                in moist\n                                areas of the vagina just waiting for an opportunity to strike... a moment of weakness\n                                and it\n                                can\n                                take\n                                over quickly causing an infection!\n                                <br>\n                                <br>\n                                All women have this yeast in our bodies, that’s normal. But if Candida is not kept in\n                                check,\n                                then it\n                                can\n                                grow rapidly and overpower your vaginal microbiome. It’s not uncommon for some women to\n                                get\n                                three,\n                                four\n                                or sometimes more yeast infections in a year.",
+        "ph_para16": "So, if your bacterial balance is off, meaning you don’t have enough healthy vaginal\n                            bacteria, it\n                            will\n                            cause vaginal pH to rise.",
+        "ph_para17": "This creates a hospitable environment for bad bacteria like Gardnerella vaginalis, a\n                            bacteria\n                            that\n                            causes\n                            Bacterial Vaginosis (BV), or Candida albicans, a yeast that causes vaginal Yeast Infections.",
+        "ph_para18": "<b>\n                                The primary cause of BV or Yeast Infections is not having enough of certain healthy\n                                probiotic\n                                bacteria\n                                in the vagina.\n                            </b>",
+        "woman_peace": "shopify://shop_images/woman-peace.webp",
+        "ph_heading6": "Lovebug Replenishes\n                    <br>\n                    Vaginal Lactobacilli\n                    <br>\n                    Probiotic Levels",
+        "replinish": "shopify://shop_images/replinish.png",
+        "ph_heading7": "Lovebug Replenishes\n                            <br>\n                            Vaginal Lactobacilli\n                            <br>\n                            Probiotic Levels",
+        "ph_para19": "A rise in vaginal pH occurs when good vaginal bacteria levels are depleted. <b>Most of your\n                                good\n                                vaginal\n                                bacteria, over 80% for most women, are Lactobacilli probiotics.</b> These lactobacilli\n                            probiotics\n                            produce\n                            lactic acid which acidifies the vagina... keeping it free of bacteria or yeast overgrowth\n                            that\n                            can cause\n                            infections.\n                            <br>\n                            <br>\n                            <b>Lovebug is loaded with lactobacilli probiotics, over 90 billion CFU, to help assure\n                                vaginal\n                                flora is\n                                balanced... keeping vaginal pH levels in a healthy range!\n                            </b>"
+      }
+    },
+    "complete_support_y8aG9t": {
+      "type": "complete_support",
+      "blocks": {
+        "support_span_first_y8WdcY": {
+          "type": "support_span_first",
+          "settings": {
+            "support_span1": "Vaginal Lubrication Support"
+          }
+        },
+        "support_span_first_nEaXwA": {
+          "type": "support_span_first",
+          "settings": {
+            "support_span1": "Urinary Health Support Blend"
+          }
+        },
+        "support_span_first_4kaeVV": {
+          "type": "support_span_first",
+          "settings": {
+            "support_span1": "Vaginal pH Support <i>(Targeted Probiotic Blend)</i>"
+          }
+        },
+        "support_span_second_GNRtWw": {
+          "type": "support_span_second",
+          "settings": {
+            "support_span2": "Lactobacillus plantarum Lp-115"
+          }
+        },
+        "support_span_second_Qdqinx": {
+          "type": "support_span_second",
+          "settings": {
+            "support_span2": "Lactobacillus paracasei LPC-37"
+          }
+        },
+        "support_span_second_hfaUyx": {
+          "type": "support_span_second",
+          "settings": {
+            "support_span2": "Lactobacillus casei LC-11"
+          }
+        },
+        "support_span_second_mxiH3a": {
+          "type": "support_span_second",
+          "settings": {
+            "support_span2": "Lactobacillus rhamnosus HN001"
+          }
+        },
+        "support_span_second_hxnGMw": {
+          "type": "support_span_second",
+          "settings": {
+            "support_span2": "Lactobacillus acidophilus La-14"
+          }
+        },
+        "support_span_third_CCDMG9": {
+          "type": "support_span_third",
+          "settings": {
+            "support_span3": "Lactobacillus rhamnosus HN001&trade;"
+          }
+        },
+        "support_span_third_pdRPnK": {
+          "type": "support_span_third",
+          "settings": {
+            "support_span3": "Lactobacillus acidophilus La-14&reg;"
+          }
+        },
+        "support_span_third_WAUa8W": {
+          "type": "support_span_third",
+          "settings": {
+            "support_span3": "Lactoferrin"
+          }
+        },
+        "support_span_fourth_JgzLrF": {
+          "type": "support_span_fourth",
+          "settings": {
+            "support_span4": "Organic Pacran (Organic Whole Cranberry Powder)"
+          }
+        },
+        "support_span_fourth_XgPyWC": {
+          "type": "support_span_fourth",
+          "settings": {
+            "support_span4": "Garlic"
+          }
+        },
+        "support_span_fourth_dgEDzt": {
+          "type": "support_span_fourth",
+          "settings": {
+            "support_span4": "Vitamin C"
+          }
+        }
+      },
+      "block_order": [
+        "support_span_first_y8WdcY",
+        "support_span_first_nEaXwA",
+        "support_span_first_4kaeVV",
+        "support_span_second_GNRtWw",
+        "support_span_second_Qdqinx",
+        "support_span_second_hfaUyx",
+        "support_span_second_mxiH3a",
+        "support_span_second_hxnGMw",
+        "support_span_third_CCDMG9",
+        "support_span_third_pdRPnK",
+        "support_span_third_WAUa8W",
+        "support_span_fourth_JgzLrF",
+        "support_span_fourth_XgPyWC",
+        "support_span_fourth_dgEDzt"
+      ],
+      "settings": {
+        "supplimental_facts": "shopify://shop_images/supplimental-facts.png",
+        "support_heading1": "Lovebug... Complete Vaginal                             & Urinary Tract Support",
+        "buy_now": "Buy Now",
+        "buy_now_url": "#",
+        "support_heading2": "2 Blends\nfor Complete\nVaginal & Urinary Support",
+        "support_para1": "Vaginal PH Support (Targeted Probiotic Blend)",
+        "support_heading3": "15 Strains - 90 Billion CFUs ‡",
+        "support_para2": "Lovebug uses a combination of targeted daily vaginal probiotics to help keep your\nvaginal pH\nin a\nhealthy range – the key to maintaining vaginal health at any age.",
+        "support_para3": "Formulated by Lovebug, the leader in women’s probiotics, Lovebug provides comprehensive\nprobiotic\nvaginal support with 15 different strains of the most critical probiotic to vaginal health,\nLactobacilli.",
+        "support_heading4": "Daily Replenishment Probiotics: Lactobacilli",
+        "support_para4": "<b>\nLactobacilli probiotics are the most\nabundant bacteria found in the vagina,</b>\nabout\n80% all\nvaginal\nbacteria for most women.\n<br>\n<br>\nThese good bacteria inhibit the growth of bad vaginal bacteria and yeast by producing\nlactic\nacid\nthat keeps the vagina acidic (healthy vaginal pH is 3.8-4.5). By creating an environment\nthat keeps\nthe vaginal flora balanced, this prevents bad bacteria or yeast overgrowth.",
+        "support_para5": "What's inside",
+        "bacilli": "shopify://shop_images/bacilli.webp",
+        "support_heading5": "Super Probiotics: Lactobacillus rhamnosus HN001 & Lactobacillus acipdophilus La-14.",
+        "support_para6": "Supplementation with probiotics is a proactive way to increase the levels of vaginal\nlactobacilli\nand may help reduce the risk of recurrent vaginal infections.",
+        "support_para7": "V Best combines multiple strains\nincluding Lactobacillus rhamnosus HN001&trade; and Lactobacillus acidophilus La-14®\nwhich, \nin\ncombination\nwith lactoferrin in a clinical study showed a restoration of healthy vaginal microbiota.",
+        "support_heading6": "Prebiotics for Probiotic Support",
+        "support_para8": "Lovebug also includes a well-studied <b>organic natural prebiotic</b> that comes from\norganic\nJerusalem\nArtichokes. What’s a prebiotic? Prebiotics directly support the activity and growth of\nprobiotics,\nthe 15 probiotic strains in Lovebug, for even better results!",
+        "support_span_normal1": "Organic Inulin (from Organic Jerusalem artichokes)",
+        "inulin": "shopify://shop_images/inulin.png",
+        "support_span_normal2": "Urinary Tract Health",
+        "support_para9": "Lovebug is also a <b>premium urogenital support supplement</b>, providing three key\ningredients shown\nto\nsupport urinary health as well.\n<br>\n <br>\nThe first is a <b> Organic Whole Cranberry Powder</b> from North American cranberries,\ncalled\n“Pacran”.\nWith multiple patents awarded for urinary health, <b>Pacran was clinically shown to\nreduce\nUTIs by\nover\n50%</b> in women that experience recurrent UTIs.",
+        "support_para10": "Lovebug also includes <b>Garlic, which has antimicrobial properties</b> to further help\nblock\nthe\ngrowth of\nbad bacteria in the urinary tract, like e-coli, the bacteria that causes most UTIs.\n<br>\n<br>\nTo complete Lovebug’s urinary health support blend, <b>Vitamin C is added to help keep\nurine\nnaturally\nacidic,</b> creating an unfriendly environment for bad bacteria to grow.",
+        "support_para11": "What's inside",
+        "support_para12": "",
+        "berries": "shopify://shop_images/berries.png"
+      }
+    },
+    "viral_bacteria_HUbCeH": {
+      "type": "viral_bacteria",
+      "settings": {
+        "viral_bacteria_heading1": "What Experts Want You To Know about Vaginitis",
+        "viral_bacteria_para1": "Yeast Infections and Bacterial Vaginosis - What's the difference and why is that important?",
+        "viral_bacteria_para2": "Knowledge is power when it comes to your health.",
+        "viral_bacteria_para3": "This is especially true when it comes to vaginal\nhealth.\nMaintaining optimal vaginal health is easy... once you know the basics!",
+        "viral_bacteria_para4": "Maintaining a healthy vaginal pH (in the 3.8 to 4.5 range) is the most important thing you can\ndo to\nhelp\nprevent bad bacteria and yeast from taking hold and causing infections, which can lead to the\nuncomfortable\nsymptoms listed below.",
+        "viral_bacteria_para5": "Vaginal pH is thrown off when the vaginal bacterial balance is disrupted.",
+        "viral_bacteria_para6": "There are several reasons why your vaginal bacteria can be out of balance. This imbalance",
+        "viral_bacteria_para7": "of bacteria is the root cause for Bacterial Vaginosis (BV) and Yeast infections.",
+        "viral_bacteria_para8": "It's important to be able to recognize the symptoms and know the difference.",
+        "viral_bacteria_heading2": "Bacterial Vaginosis or Yeast Infection?",
+        "viral_bacteria_vaginitis": "Vaginitis",
+        "viral_bacteria_vaginosis": "Bacterial vaginosis",
+        "viral_bacteria_yeast_infection": "Yeast Infection",
+        "viral_bacteria_what_text": "What is it?",
+        "viral_bacteria_cell1": "Imbalance of bacteria in the vagina caused by <b>not having enough good vaginal bacteria\n(probiotics)</b>\nwhich raises vaginal pH allowing for an overgrowth of a bad bacteria, called Gardenella\nvaginalis,\nleading to infection.",
+        "viral_bacteria_cell2": "Imbalance of normal bacteria in vagina caused by <b>not having enough good vaginal bacteria\n(probiotics)</b> which raises vaginal pH allowing for an overgrowth of a yeast, called\nCandida\nalbicans,\nleading to infection.",
+        "viral_bacteria_vaginal_discharge_colour": "Vaginal Discharge\nColor",
+        "viral_bacteria_greyish_white": "Greyish-White (Usually worse after Sex)",
+        "viral_bacteria_thick_curd": "Thick & Curd-like (Cottage cheese looking)",
+        "viral_bacteria_vaginal_discharge_odor": "Vaginal Discharge\nOdor",
+        "viral_bacteria_fishy_odor": "Fishy odor",
+        "viral_bacteria_beer_odor": "Sweeter, Beer-like odor",
+        "viral_bacteria_itching": "Itching in Genital\nArea",
+        "viral_bacteria_yes": "Yes",
+        "viral_bacteria_no": "No",
+        "viral_bacteria_burning": "Burning / Swelling\nVagina & Vulva",
+        "viral_bacteria_burning_with_urination": "Burning or Pain\nwith Urination",
+        "viral_bacteria_pain": "Pain During Sex",
+        "viral_bacteria_effects": "Effects Urine",
+        "viral_bacteria_contagious": "Contagious",
+        "viral_bacteria_high": "High",
+        "viral_bacteria_chances": "Chances of Recurrence",
+        "viral_bacteria_cell3": "<b>~</b> Sometimes",
+        "viral_bacteria_cell4": "No, though it can be passed through sex (less common)",
+        "viral_bacteria_cell5": "Imbalance of normal bacteria in vagina caused by <b>not having enough good vaginal bacteria\n(probiotics)</b> which raises vaginal pH allowing for an overgrowth of a yeast, called\nCandida\nalbicans,\nleading to infection."
+      }
+    },
+    "testimonial_Jgbrtc": {
+      "type": "testimonial",
+      "blocks": {
+        "testimonial_block_y4PJeV": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_block_url": "https://fast.wistia.com/embed/medias/tm0hn02wdf",
+            "testimonial_block": "https://fast.wistia.com/embed/medias/tm0hn02wdf/swatch"
+          }
+        },
+        "testimonial_block_7m39CP": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_block_url": "https://fast.wistia.com/embed/medias/1eot0z6py4",
+            "testimonial_block": "https://fast.wistia.com/embed/medias/1eot0z6py4/swatch"
+          }
+        },
+        "testimonial_block_FWrKtD": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_block_url": "https://fast.wistia.com/embed/medias/rxfq88e0jm",
+            "testimonial_block": "https://fast.wistia.com/embed/medias/rxfq88e0jm/swatch"
+          }
+        },
+        "testimonial_block_jPafUm": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_block_url": "https://fast.wistia.com/embed/medias/kuyip1syhj",
+            "testimonial_block": "https://fast.wistia.com/embed/medias/kuyip1syhj/swatch"
+          }
+        },
+        "testimonial_block_XTA3f4": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_block_url": "https://fast.wistia.com/embed/medias/w61kw7pfuh",
+            "testimonial_block": "https://fast.wistia.com/embed/medias/w61kw7pfuh/swatch"
+          }
+        },
+        "testimonial_block_d7NPmq": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_block_url": "https://fast.wistia.com/embed/medias/giznly5sis",
+            "testimonial_block": "https://fast.wistia.com/embed/medias/giznly5sis/swatch"
+          }
+        },
+        "testimonial_block_fi47QX": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_block_url": "https://fast.wistia.com/embed/medias/ou3on8w0ff",
+            "testimonial_block": "https://fast.wistia.com/embed/medias/ou3on8w0ff/swatch"
+          }
+        },
+        "testimonial_block_JgXLtk": {
+          "type": "testimonial_block",
+          "settings": {
+            "testimonial_block_url": "https://fast.wistia.com/embed/medias/iiz481blst",
+            "testimonial_block": "https://fast.wistia.com/embed/medias/iiz481blst/swatch"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_block_y4PJeV",
+        "testimonial_block_7m39CP",
+        "testimonial_block_FWrKtD",
+        "testimonial_block_jPafUm",
+        "testimonial_block_XTA3f4",
+        "testimonial_block_d7NPmq",
+        "testimonial_block_fi47QX",
+        "testimonial_block_JgXLtk"
+      ],
+      "settings": {
+        "testimonial_heading": "Real People.<br> Real Results.",
+        "testimonial_media1_url": "https://fast.wistia.com/embed/medias/3nbb90liog",
+        "testimonial_media1": "https://fast.wistia.com/embed/medias/3nbb90liog/swatch",
+        "testimonial_media2_url": "https://fast.wistia.com/embed/medias/4dbz3jzyug",
+        "testimonial_media2": "https://fast.wistia.com/embed/medias/4dbz3jzyug/swatch"
+      }
+    },
+    "bacterial_balance_YKhTWf": {
+      "type": "bacterial_balance",
+      "blocks": {
+        "balance_bacteria_left_rcPAwg": {
+          "type": "balance_bacteria_left",
+          "settings": {
+            "balance_bacteria_left": "shopify://shop_images/capsule-tab.svg",
+            "balance_bacteria_para_left": "<b>Taking antibiotics</b> (for anything) temporarily wipes out some of your good vaginal\nbacteria\nand can\n put you at risk. Most antibiotics can't distinguish between good and bad bacteria, that\nmeans they\ncan wreak havoc on your protective healthy vaginal bacteria."
+          }
+        },
+        "balance_bacteria_left_aLdCiJ": {
+          "type": "balance_bacteria_left",
+          "settings": {
+            "balance_bacteria_left": "shopify://shop_images/smoking.svg",
+            "balance_bacteria_para_left": "<b>Hormonal changes</b> from taking birth control, or pregnancy, or even sometimes\nmenstruation."
+          }
+        },
+        "balance_bacteria_left_MCWrUc": {
+          "type": "balance_bacteria_left",
+          "settings": {
+            "balance_bacteria_left": "shopify://shop_images/smoking-2.svg",
+            "balance_bacteria_para_left": "<b> Smoking.</b> Women who smoke, even women exposed to second-hand smoke, are at higher\nrisk for\nrecurrent\nBV at more than twice the level of non-smokers. Smoking not only weakens your immune\nsystem,\nit\nactually creates vaginal secretions that attack healthy vaginal lactobacilli and\npromotes\nbad bacteria."
+          }
+        },
+        "balance_bacteria_left_GjUciQ": {
+          "type": "balance_bacteria_left",
+          "settings": {
+            "balance_bacteria_left": "shopify://shop_images/glucometer.svg",
+            "balance_bacteria_para_left": "<b>Blood Sugar Issues</b> is a risk factor for Yeast Infections. The reason for this is\nsimple,\nyeast feeds\noff of sugar. If diabetes isn't well-controlled, then blood sugar levels can spike. This\nincrease can lead to sugar in your vaginal mucus which causes vaginal candida yeast to grow."
+          }
+        },
+        "balance_bacteria_left_pVRW9f": {
+          "type": "balance_bacteria_left",
+          "settings": {
+            "balance_bacteria_left": "shopify://shop_images/immunity.svg",
+            "balance_bacteria_para_left": "<b>A weak immune system</b> provides an environment for Candida yeast to grow and take\nover."
+          }
+        },
+        "balance_bacteria_right_3TfkDd": {
+          "type": "balance_bacteria_right",
+          "settings": {
+            "balance_bacteria_right": "shopify://shop_images/hormonal.svg",
+            "balance_bacteria_para_right": "<b>Douching or other excessive “cleansing” methods and fragrant sprays,</b> all of these\nstrip good\nbacteria and can make you vulnerable."
+          }
+        },
+        "balance_bacteria_right_thYnEE": {
+          "type": "balance_bacteria_right",
+          "settings": {
+            "balance_bacteria_right": "shopify://shop_images/new-sex.svg",
+            "balance_bacteria_para_right": "<b>Having sex with a new partner.</b> BV is not an STI, however many doctors believe\nthat a\nnew\npartner's\ngenital chemistry can alter your vaginal bacteria balance enough to trigger BV."
+          }
+        },
+        "balance_bacteria_right_zVLxFc": {
+          "type": "balance_bacteria_right",
+          "settings": {
+            "balance_bacteria_right": "shopify://shop_images/hygine.svg",
+            "balance_bacteria_para_right": "<b>Improper hygiene,</b> such as wiping back to front or having anal then vaginal sex\nwithout\ncleaning up\nin between."
+          }
+        },
+        "balance_bacteria_right_NWMkhM": {
+          "type": "balance_bacteria_right",
+          "settings": {
+            "balance_bacteria_right": "shopify://shop_images/underwear.svg",
+            "balance_bacteria_para_right": "<b>Leaving tampons or pads in too long</b> can lead to yeast or other infections."
+          }
+        },
+        "balance_bacteria_right_dR9Pzp": {
+          "type": "balance_bacteria_right",
+          "settings": {
+            "balance_bacteria_right": "shopify://shop_images/tampons.svg",
+            "balance_bacteria_para_right": "<b>Tight underwear or clothes that don’t breathe well</b> create a warm, moist\nenvironment.\nSitting\naround\nin damp sweaty workout clothes or a wet swimsuit is not good either. Candida yeast likes\nmoist and\nwet."
+          }
+        }
+      },
+      "block_order": [
+        "balance_bacteria_left_rcPAwg",
+        "balance_bacteria_left_aLdCiJ",
+        "balance_bacteria_left_MCWrUc",
+        "balance_bacteria_left_GjUciQ",
+        "balance_bacteria_left_pVRW9f",
+        "balance_bacteria_right_3TfkDd",
+        "balance_bacteria_right_thYnEE",
+        "balance_bacteria_right_zVLxFc",
+        "balance_bacteria_right_NWMkhM",
+        "balance_bacteria_right_dR9Pzp"
+      ],
+      "settings": {
+        "balance_bacteria_heading1": "Top 10 Things",
+        "balance_bacteria_heading2": "That Can\nThrow Off",
+        "balance_bacteria_heading3": "Vaginal",
+        "balance_bacteria_heading4": "Bacterial Balance...",
+        "balance_bacteria_para1": "and Lead to BV or Yeast Infections"
+      }
+    },
+    "prevention_tips_Y8WwEy": {
+      "type": "prevention_tips",
+      "settings": {
+        "prevention_tips_heading1": "Lovebug’s® Top 10",
+        "prevention_tips_heading2": "Vaginal Health & BV",
+        "prevention_tips_heading3": "and Yeast Infection",
+        "prevention_tips_heading4": "Prevention Tips",
+        "prevention_tips_left_i1": "1.",
+        "prevention_tips_left_heading1": "Use antibiotics only when you <br>have to",
+        "prevention_tips_left_para1": "Too often people take antibiotics when they have a virus, like a cold. Antibiotics\naren’t\nfor viruses. If you don't have to take them and can safely avoid it, then don’t.",
+        "prevention_tips_left_i2": "2.",
+        "prevention_tips_left_heading2": "Avoid all scented vaginal <br>products",
+        "prevention_tips_left_para2": "It can be tempting to reach for a fragrant cleaning product when you have odor symptoms,\nbut\n those fragrant vaginal washes and sprays, douches or scented tampons can disrupt your\nvaginal pH, so don’t use them.",
+        "prevention_tips_right_blur1": "shopify://shop_images/antibiotics.webp",
+        "prevention_tips_left_blur1": "shopify://shop_images/underwear.webp",
+        "prevention_tips_right_i3": "3.",
+        "prevention_tips_right_heading3": "Be mindful of your underwear <br>and other clothing choices",
+        "prevention_tips_right_para3": "Wear underwear that’s made from natural, breathable, absorbent fabrics, like cotton.\nAvoid\nwearing tight fitting or restrictive clothing for long periods of time. Wash your\nunderwear in a hypoallergenic detergent.\n<br>\n<br>\nGo panty-free at night to prevent moisture buildup. Change your underwear during the day\nif\nyou notice a lot of moisture buildup or irritation.\n<br>\n<br>\nDon’t hang out in a wet swimsuit or in sweaty exercise wear after the gym.",
+        "prevention_tips_left_i4": "4.",
+        "prevention_tips_left_heading4": "Use Condoms",
+        "prevention_tips_left_para4": "Semen has an alkalizing effect on the vagina, which increases your risk for BV. There\nare\nsome great condom options out there, find one that works best for you and your partner\nand\nuse them.",
+        "prevention_tips_left_i5": "5.",
+        "prevention_tips_left_heading5": "Limit sugar intake",
+        "prevention_tips_left_para5": "Also, if you have trouble keeping sugar intake limited, take measures to control it.",
+        "prevention_tips_left_i6": "6.",
+        "prevention_tips_left_heading6": "Keep your immune system strong",
+        "prevention_tips_left_para6": "I’m a big proponent of getting proper sleep, exercise and eating a healthy diet as the\nbest\nway to keep your immune system strong.",
+        "prevention_tips_right_blur2": "shopify://shop_images/condoms.webp",
+        "prevention_tips_left_blur2": "shopify://shop_images/tampons.webp",
+        "prevention_tips_right_i7": "7.",
+        "prevention_tips_right_heading7": "Don’t leave tampons in too long",
+        "prevention_tips_right_para7": "To be on the safe side, most experts now recommend leaving tampons in 4 to 6 hours is\noptimal. In addition to BV, if you go past 8 hours it could lead to other serious\nbacterial\nissues as well.",
+        "prevention_tips_right_i8": "8.",
+        "prevention_tips_right_heading8": "Quit smoking",
+        "prevention_tips_right_para8": "As if you need yet another reason to quit, smoking both weakens your immune system and\ndirectly affects your vaginal flora, making you more susceptible to BV and Yeast\nInfections.",
+        "prevention_tips_left_i9": "9.",
+        "prevention_tips_left_heading9": "Stay away from home remedies",
+        "prevention_tips_left_para9": "Of course, some content you get from the internet can be helpful, but too often it’s\nfull of\nhealth advice from people who are not trained experts in that health topic. Internet\nhome\nremedies can be harmful and dangerous, such as inserting food or other objects inside.\nPlease get your health advise from only trusted and trained people in that health field.",
+        "prevention_tips_left_i10": "10.",
+        "prevention_tips_left_heading10": "Take Lovebug daily to replenish healthy vaginal bacteria",
+        "prevention_tips_left_para10": "And maintain an optimal vaginal balance and pH. The complete targeted vaginal health and\nurogenital support probiotic supplement, Lovebug, is the one I recommend to all women to\nhelp\nmaintain balanced vaginal flora and healthy vaginal pH levels.",
+        "prevention_tips_right": "shopify://shop_images/lovebug-product-2.png"
+      }
+    },
+    "uti_banner_nBjnVh": {
+      "type": "uti_banner",
+      "settings": {
+        "uti_banner_heading1": "LoveBug's® Top Urinary Tract\nInfection Prevention Tips",
+        "uti_banner_para1": "Causes & Avoiding UTIs",
+        "uti_banner_para2": "The Dreaded Urinary Tract Infection",
+        "uti_banner_para3": "The other urogenital health issue that women need to be diligent about is urinary tract\ninfections\n(UTIs).",
+        "uti_banner_para4": "As most women know, UTIs are very common.",
+        "uti_banner_para5": "As most women know, UTIs are very common. Over 60% of women will have to deal with UTIs\nat\nsome\npoint in\ntheir lives, and not just once, recurrent UTIs are very common. Once you get one... it’s\neasier to\nget\nanother.\n<br>\n<br>\nUTIs also have a lot in common with vaginitis, such as Bacterial Vaginosis (BV), since\nthey\nare both\nbacterial issues. In fact, it’s common for BV to lead to a UTI. So, if you swear that\nyou\nsometimes\nget\na UTI after sex... then you’re probably not imagining it."
+      }
+    },
+    "uti_tips_4VXUWF": {
+      "type": "uti_tips",
+      "settings": {
+        "uti_tips_heading": "Causes",
+        "uti_tips_span_heading": "of",
+        "uti_tips_sub_heading": "Urinary<br>\nTract Infections",
+        "uti_tips_para1": "The primary cause of UTIs is an overgrowth of bad bacteria, primarily e-coli. There are\nmany\nways\nyou can end up with a UTI.",
+        "uti_tips_para2": "There’s hygiene issues, such as wiping back to front after a bowel movement, or you can get\nit\nfrom sex,\nor if you have some other kidney or urinary issues... and other ways too.",
+        "uti_tips_para3": "Even things like not emptying\nyour bladder fully when you pee can trigger a UTI. <b>Here’s an overview of UTI symptoms</b>\n(if\nyou\nfeel you\nmay a UTI, please contact your doctor)",
+        "uti_tips_heading2": "Urinary tract infections",
+        "uti_tips_whats": "What is it?",
+        "uti_tips_para4": "Infection that occurs when <b> bad bacteria from the bowel, like E. Coli, enters the urinary\ntract.</b>",
+        "uti_tips_itching": "Itching in Urogenital Area",
+        "uti_tips_no": "No",
+        "uti_tips_burning_with_urination": "Burning or Pain\nwith Urination",
+        "uti_tips_para5": "Yes; also pain in lower abdomen, back, sides",
+        "uti_tips_burning": "Burning / Swelling in Urogenital Area",
+        "uti_tips_yes": "Yes",
+        "uti_tips_pain": "Pain During Sex",
+        "uti_tips_effects": "Effects Urine",
+        "uti_tips_para6": "Yes; Urine has strong odor, cloudy or discolored (blood)",
+        "uti_tips_contagious": "Contagious",
+        "uti_tips_chances": "Chances of Reoccurrence",
+        "uti_tips_high": "Very High"
+      }
+    },
+    "uti_prevention_H9QJba": {
+      "type": "uti_prevention",
+      "settings": {
+        "uti_prevention_heading1": "UTI Prevention",
+        "uti_prevention_para1": "The best way to avoid UTIs and the frequent urination, burning and other unpleasant symptoms that\ncome with them is obvious... take measures to avoid them in the first place!",
+        "uti_prevention_para2": "This means making certain small lifestyle changes to help prevent them. The key is doing things that help keep the bad bacteria out, while also creating an environment in the body where the bad bacteria is less likely to take hold and thrive.",
+        "uti_prevention_para3": "Here’s Urologist’s Lovebog’s top tips...",
+        "uti_prevention_heading2": "LoveBug’s® The ABCs of UTIs Helpful Urinary",
+        "uti_prevention_sub_heading2": "Tract Infection Prevention Tips",
+        "uti_prevention_left_i1": "1.",
+        "uti_prevention_left_heading1": "Don’t hold your urine",
+        "uti_prevention_left_para1": "Make sure you urinate when you feel the urge and don’t hold it or try go on a schedule.",
+        "uti_prevention_left_i2": "2.",
+        "uti_prevention_left_heading2": "Always empty your bladder completely when peeing",
+        "uti_prevention_left_i3": "3.",
+        "uti_prevention_left_heading3": "Urinate both before and after sex",
+        "uti_prevention_left_i4": "4.",
+        "uti_prevention_left_heading4": "Wipe from front to back",
+        "uti_prevention_left_para4": "Bacteria tend to hang around the anus. If you wipe from front to back, especially after\na\nbowel\nmovement, they're less likely to make it to the urethra.",
+        "uti_prevention_right_blur1": "shopify://shop_images/copulation.webp",
+        "uti_prevention_left_blur1": "shopify://shop_images/drink-water.webp",
+        "uti_prevention_right_i5": "5.",
+        "uti_prevention_right_heading5": "Drink plenty of water, and urinate often",
+        "uti_prevention_right_para5": "One of the keys to preventing a UTI is to flush bacteria out of the bladder and urinary\ntract before\nit can set in. If you’re well-hydrated then it will be tough to go too long without\nurinating. So\ncommit to drinking more water... there’s so many health benefits!",
+        "uti_prevention_right_i6": "6.",
+        "uti_prevention_right_heading6": "Wash up before sex",
+        "uti_prevention_right_para6": "Having sex can sometimes cause urinary tract infections in women because bacteria can be\npushed into\nthe urethra. So use soap and water before sex, this helps keeps bacteria away from the\nurethra. And\nagain, urinating after sex helps push bacteria that may have entered the urinary tract\nback\nout.",
+        "uti_prevention_left_i7": "7.",
+        "uti_prevention_left_heading7": "Avoid potentially irritating feminine products",
+        "uti_prevention_left_para7": "Like with vaginitis prevention, stay away from douches, deodorant sprays, scented\npowders\nand other\npotentially irritating feminine products.",
+        "uti_prevention_left_i8": "8.",
+        "uti_prevention_left_heading8": "Switch to cotton underwear and other lifestyle tweaks",
+        "uti_prevention_left_para8": "If you are prone to UTIs then switch to primarily cotton underwear, and avoid tight\nclothes\nthat can\ntrap bacteria near the urethra. Also take showers instead of baths, if possible.",
+        "uti_prevention_right_blur2": "shopify://shop_images/irritating.webp",
+        "uti_prevention_left_blur2": "shopify://shop_images/birth-control.webp",
+        "uti_prevention_right_i9": "9.",
+        "uti_prevention_right_heading9": "Consider a change in birth control",
+        "uti_prevention_right_para9": "For some women, using a diaphragm can lead to infections because diaphragms push against\nthe\nurethra\nand make it harder to completely empty your bladder.\n<br>\n<br>\nAlso, a diaphragm, spermicide or spermicide-lubricated condom can make you more likely\nto\nget a UTI\nbecause they all can contribute to bacterial growth.\n<br>\n<br>\nIf you get UTIs and use one of these birth control methods, then switch to a water-based\nlubricant,\nand consider trying another birth control method.",
+        "uti_prevention_left_i10": "10.",
+        "uti_prevention_left_heading10": "Take Lovebug daily for your urogenital health support",
+        "uti_prevention_left_para10": "Here’s <u>my top four reasons</u> why Lovebug is such an effective urinary health\nsupplement\nand why\nI\nrecommend it:",
+        "uti_prevention_right_blur3": "shopify://shop_images/cranberries.webp",
+        "uti_prevention_left_blur3": "shopify://shop_images/citrus.webp",
+        "uti_prevention_red_disk": "shopify://shop_images/red-disk.svg",
+        "uti_prevention_red_disk_para": "First thing you need nutritionally to help prevent future UTIs is <b>targeted urogenital\nprobiotics</b>.\nYour urogenital flora should be predominantly made up of Lactobacilli, like the\nLactobacilli\nprobiotics that you get in Lovebug. They push out uro-pathogens, like e-coli, that are\nresponsible\nfor 95% of all UTIs.",
+        "uti_prevention_teal_disk": "shopify://shop_images/teal-disk.svg",
+        "uti_prevention_teal_disk_para": "Next is cranberry. Now I don’t advise drinking cranberry juice because it’s loaded with\nsugar and\nnot potent enough. What Lovebug provides is a sugar-free, concentrated <b>full spectrum\ncranberry\nextract called Pacran</b>, which was clinically shown to help reduce the rate of\nrecurrent\nUTIs,\nby\ndirectly reducing e-coli levels.",
+        "uti_prevention_red_disk_para2": "The third urogenital health support ingredient in Lovebug is Garlic extract. Garlic has\nantimicrobial\nproperties to further help block the growth of bad bacteria in the urinary tract.",
+        "uti_prevention_teal_disk_para2": "And number four is the addition <b>Vitamin</b> C to Lovebug. This is important because\ndaily\nVitamin\nC helps\nkeep urine naturally acidic, which creates a healthy urinary tract environment, and an\nunfriendly\nenvironment for bad bacteria to grow.",
+        "buy_now_url": "#",
+        "buy_now": "Buy Now"
+      }
+    },
+    "faq_rYDLWr": {
+      "type": "faq",
+      "blocks": {
+        "faq_accordian_items_XhKxTT": {
+          "type": "faq_accordian_items",
+          "settings": {
+            "faq_heading": "What is Vaginal pH?",
+            "faq_para": "Vaginal pH refers to the acidity level of the vagina, a healthy vagina is in the 3.8 to 4.5\nrange. This\nhealthy range is maintained by having enough good bacteria in the vagina (called vaginal\nprobiotics).The\nmajority of good bacteria are in the Lactobacilli family.\n<br>\n<br>\nIf there are not enough good bacteria in the vagina, then vaginal pH can rise, creating an\nenvironment\nfor “opportunistic” pathogens like Candida (the yeast that causes Vaginal Yeast Infections)\nor\n Gardnerella (the bacteria behind Bacterial Vaginosis) to grow rapidly, resulting in\nvaginitis.\nIt can\nalso lead to vaginal dryness and other vaginal health concerns.\n<br>\n<br>\n\nLovebug provides the right targeted vaginal Lactobacilli and other vaginal probiotics to\nhelp\nkeep a\nhealthy vaginal bacteria balance providing a healthy Vaginal pH.\n<br>\n<br>"
+          }
+        },
+        "faq_accordian_items_WhH9B8": {
+          "type": "faq_accordian_items",
+          "settings": {
+            "faq_heading": "How does Lovebug support a healthy Vaginal pH?",
+            "faq_para": "Maintaining a healthy Vaginal pH is the key to vaginal health. Vaginal pH refers to the\nacidity\nlevel of\nthe vagina, a healthy vagina is in the 3.8 to 4.5 range. This healthy range is maintained by\nhaving\nenough good bacteria in the vagina (called vaginal probiotics), the majority of good\nbacteria\nLactobacilli family.\n<br>\n<br>\nIf there are not enough good bacteria in the vagina, then vaginal pH can rise creating an\nenvironment\nfor “opportunistic” pathogens like Candida (the yeast that causes Vaginal Yeast Infections)\nor\nGardnerella (the bacteria behind Bacterial Vaginosis) to grow rapidly resulting in\nvaginitis. It\ncan\nalso lead to vaginal dryness and other vaginal health concerns.\n<br>\n<br>\n\nLovebug provides the right targeted vaginal Lactobacilli and other vaginal probiotics to\nhelp\nkeep a\nhealthy vaginal bacteria balance for a healthy vaginal pH.\n<br>\n<br>"
+          }
+        },
+        "faq_accordian_items_VntdDQ": {
+          "type": "faq_accordian_items",
+          "settings": {
+            "faq_heading": "What throws off Vaginal pH?",
+            "faq_para": "Having too low a level of good vaginal bacteria (called vaginal probiotics) is what creates\nthe\nenvironment for Vaginal pH to rise. There are many everyday things that can also contribute\nto\nan\nenvironment of bacterial imbalance, the top ten are included here\n\n<br>\n<br>"
+          }
+        },
+        "faq_accordian_items_BXwCdj": {
+          "type": "faq_accordian_items",
+          "settings": {
+            "faq_heading": "What’s in Lovebug?",
+            "faq_para": "Lovebug is a complete vaginal and overall urogenital health support supplement. With\ntargeted\nurogenital\nprobiotics plus key support ingredients.\n<br>\n<br>\nWhen the delicate vaginal flora is out of balance, your natural defense against pathogens\nis impaired. Lovebug contains the same healthy lactobacilli and other vaginal probiotics\nnaturally\noccurring in the vagina (over 90 billion CFU in fact) to help restore, rebalance and\nmaintain a\nhealthy\nvaginal flora.\n<br>\n<br>\nFor urinary tract health, Lovebug also contains urinary health specific probiotics together\nwith\ncranberry extract, odorless garlic and vitamin C for complete urogenital health support too.\n\n<br>\n<br>"
+          }
+        },
+        "faq_accordian_items_fbCR9w": {
+          "type": "faq_accordian_items",
+          "settings": {
+            "faq_heading": "What are Lactobacilli Probiotics?",
+            "faq_para": "Lactobacilli bacteria are good bacteria (called vaginal probiotics) that live in the vagina\nand\nsecrete\nlactic acid which gives the vagina its acidic pH level. Healthy Vaginal pH is between 3.8\nand\n4.5.\n<br>\n<br>\nLovebug contains 90 billion CFU of Lactobacilli and other targeted healthy vaginal\nprobiotics to\nhelp\nmaintain a healthy Vaginal pH. A Vaginal pH above that range allows for “opportunistic”\npathogens like\nCandida (the yeast that causes Vaginal Yeast Infections) or Gardnerella (the bacteria behind\nBacterial\nVaginosis) to grow rapidly resulting in vaginitis. A high Vaginal pH can also lead to\nvaginal\ndryness\nand other vaginal health concerns.\n<br>\n<br>"
+          }
+        },
+        "faq_accordian_items_hXThWh": {
+          "type": "faq_accordian_items",
+          "settings": {
+            "faq_heading": "Is Lovebug safe to be taken daily?",
+            "faq_para": "Yes! Lovebug is a <u>daily supplement</u> for women.\n<br>\n<br>"
+          }
+        },
+        "faq_accordian_items_MRcawY": {
+          "type": "faq_accordian_items",
+          "settings": {
+            "faq_heading": "Will Lovebug conflict with medications or other supplements?",
+            "faq_para": "There are no known reported conflicts with the ingredients in Lovebug.\n<br>\n<br>\nAs with any dietary ingredient, should you have a concern with a specific medication it is\nalways\nsuggested you seek advice from your healthcare professional.\n<br>\n<br>"
+          }
+        },
+        "faq_accordian_items_z7zmaC": {
+          "type": "faq_accordian_items",
+          "settings": {
+            "faq_heading": "Do I need to take Lovebug with food?",
+            "faq_para": "Best results will come from taking Lovebug prior to food.\n<br>\n<br>"
+          }
+        },
+        "faq_accordian_items_UHLUGt": {
+          "type": "faq_accordian_items",
+          "settings": {
+            "faq_heading": "Who is Dr. Jennifer Berman, M.D.?",
+            "faq_para": "Dr. Jennifer Berman is an internationally renowned Urologist, NY Times Best Selling Author,\nand\none of\nAmerica’s leading experts and authorities in the field of vaginal and female sexual health,\nas\nwell as\nurinary health. To read more about Dr. Berman <a style=\"color: #285780;\" href=\"#\">click\nhere</a>.\n<br>\n<br>"
+          }
+        },
+        "faq_accordian_items_U9Vdgm": {
+          "type": "faq_accordian_items",
+          "settings": {
+            "faq_heading": "How does Lovebug support Vaginal health?",
+            "faq_para": "Maintaining a healthy Vaginal pH is the key to vaginal health. Vaginal pH refers to the\nacidity\nlevel of\n the vagina, a healthy vagina is in the 3.8 to 4.5 range. This healthy range is maintained by\nhaving\nenough good bacteria in the vagina (called vaginal probiotics), the majority of good\nbacteria\nare in the\nLactobacilli family.\n<br>\n<br>\nIf there are not enough good bacteria in the vagina, then vaginal pH can rise creating an\nenvironment\nfor “opportunistic” pathogens like Candida (the yeast that causes Vaginal Yeast Infections)\nor\nGardnerella (the bacteria behind Bacterial Vaginosis) to grow rapidly resulting in\nvaginitis. It can also lead to vaginal dryness and other vaginal health concerns.\n<br>\n<br>\n\nLovebug provides the right targeted vaginal Lactobacilli and other vaginal probiotics to\nhelp\nkeep a\nhealthy vaginal bacteria balance for a healthy Vaginal pH.\n<br>\n<br>"
+          }
+        },
+        "faq_accordian_items_KXtQyg": {
+          "type": "faq_accordian_items",
+          "settings": {
+            "faq_heading": "How does Lovebug support Urinary Tract healthy?",
+            "faq_para": "For urinary tract health, Lovebug also contains urinary health specific probiotics together\nwith\ncranberry extract, odorless garlic and vitamin C for complete urogenital health support too.\n\n<br>\n<br>"
+          }
+        },
+        "faq_accordian_items_iEHArT": {
+          "type": "faq_accordian_items",
+          "settings": {
+            "faq_heading": "How does the 60-Day Money-Back Guarantee work?",
+            "faq_para": "LBWH stands behind the quality of its products. We are so confident that you will be pleased\nwith your\nsupplements that we offer a risk-free 60-day period to try your first bottle with a full\nmoney-back\nguarantee if you are not satisfied for any reason.\n<br>\n<br>\n<ul>\n<li>\nFor 1 month supply orders, just return any product (opened or unopened), and we’ll\ngive\nyou a\nfull refund of the purchase price less s/h. To obtain this refund you must return\nthe\nproduct\nwithin 60 days after receipt of your product price less s/h.\n</li>\n<li>\nFor 3 or 6 month supply orders, your first month-bottle is yours to try and keep,\nand\nthere’s no\nrush – you’ve got 60 days to try it. If you are not satisfied for any reason, simply\nreturn the\nrest of your supply “unopened” and get a complete refund of your product price less\ns/h.\nTo\nobtain this refund you must return the product within 60 days after receipt of your\nproduct.\n</li>\n</ul>\n<br>\n<br>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_accordian_items_XhKxTT",
+        "faq_accordian_items_WhH9B8",
+        "faq_accordian_items_VntdDQ",
+        "faq_accordian_items_BXwCdj",
+        "faq_accordian_items_fbCR9w",
+        "faq_accordian_items_hXThWh",
+        "faq_accordian_items_MRcawY",
+        "faq_accordian_items_z7zmaC",
+        "faq_accordian_items_UHLUGt",
+        "faq_accordian_items_U9Vdgm",
+        "faq_accordian_items_KXtQyg",
+        "faq_accordian_items_iEHArT"
+      ],
+      "settings": {
+        "faq_questions": "You have Questions.",
+        "faq_answers": "We have answers.",
+        "faq_more_questions": "More Questions"
+      }
+    },
+    "refund_hwH3nX": {
+      "type": "refund",
+      "settings": {
+        "product_bottom": "shopify://shop_images/product-bottom.png",
+        "refund_text": "Refund Policy",
+        "refund_para": "If you’re unhappy with your products for any reason at all, contact us at",
+        "refund_mail": "hello@lovebugprobiotics.com",
+        "refund_sub_para": "within 60 days of your purchase and we will refund your purchase.",
+        "buy_now": "Buy Now",
+        "buy_now_url": "#",
+        "refund_contact": "Contact Us"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "complete_vaginal_6rjdby",
+    "health_secret_BLG7h4",
+    "ph_maintenance_ka7CzY",
+    "complete_support_y8aG9t",
+    "viral_bacteria_HUbCeH",
+    "testimonial_Jgbrtc",
+    "bacterial_balance_YKhTWf",
+    "prevention_tips_Y8WwEy",
+    "uti_banner_nBjnVh",
+    "uti_tips_4VXUWF",
+    "uti_prevention_H9QJba",
+    "faq_rYDLWr",
+    "refund_hwH3nX"
+  ]
+}

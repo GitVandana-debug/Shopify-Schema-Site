@@ -1,0 +1,62 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "custom_footer_EfPj3k": {
+      "type": "custom_footer",
+      "settings": {
+        "logo_white": "shopify://shop_images/logo-white.svg",
+        "vaginal_health": "Vaginal Health",
+        "urinary_tract": "Urinary Tract Health",
+        "vaginal_health_url": "#",
+        "urinary_tract_url": "#",
+        "logo_footer": "shopify://shop_images/logo-footer.svg",
+        "logo_footer_url": "/",
+        "buy_now": "Buy Now",
+        "buy_now_url": "#",
+        "address_details": "<b>Address:</b>\n<br>\n115 East 34th Street, Suite\n<br>\n1506 New York, NY 10156",
+        "customer_service": "Customer Service Support:",
+        "mail": "hello@lovebugprobiotics.com",
+        "terms": "Terms of Use",
+        "privacy": "Privacy Policy",
+        "terms_url": "#",
+        "privacy_url": "#",
+        "disclaimer": "†FDA DISCLAIMER - These products are not intended to diagnose, treat, cure or prevent any\ndisease.\nUse products as directed. These statements and products referred to throughout this site \nhave\nnot\nbeen evaluated by the FDA. (Will have to use the “†” symbol throughout this document when\nany\nclaim\nis made.)",
+        "right_reserved": "© 2023 LoveBug® Inc. All rights reserved.",
+        "list_item1": "Choosing a selection results in a full page refresh.",
+        "list_item2": "Opens in a new window."
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "custom_footer_EfPj3k",
+    "footer"
+  ]
+}

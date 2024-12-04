@@ -1,0 +1,314 @@
+<section class="ph-maintenance">
+            <div class="container">
+                <div class="colored-box">
+                    <h2>
+                        <span class="first-word">
+                            {{ section.settings.ph_heading1 }}</span> {{ section.settings.ph_sub_heading1 }}
+                    </h2>
+                    <div class="d-flex">
+                        <div>
+
+                            <p class="large">
+                                {{ section.settings.ph_para1 }}
+                            </p>
+                            <p>
+                                {{ section.settings.ph_para2 }}
+                                <br class="d-md-none" />
+                                <br class="d-md-none" />
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                               {{ section.settings.ph_para3 }}
+                            </p>
+                            <p>
+                               {{ section.settings.ph_para4 }}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="scale-img">
+                        <img src="{{ section.settings.vaginal_ph_scale | img_url: '' }}" alt="Vaginal PH Scale">
+                    </div>
+                </div>
+                <h3 class="heading d-md-none main">
+                    {{ section.settings.ph_heading2 }}
+                </h3>
+                <div class="dropdown-tag d-md-none">
+                    {{ section.settings.ph_para5 }}
+                    <i class="icon-down-arrow"></i>
+                </div>
+                <div class="d-relative d-md-none">
+                    <div class="dropdown-content">
+                        {{ section.settings.ph_para6 }}
+                    </div>
+                </div>
+                <div class="bi-col f-xs-column">
+                    <div class="left-col blurred">
+                        <img src="{{ section.settings.microbiome | img_url: '' }}" class="ll-delay" width="571"
+                            height="565">
+                        <img src="{{ section.settings.microbiome | img_url: '' }}" class="ll-delay" width="571"
+                            height="565">
+                    </div>
+                    <div class="right-col condensed">
+                        <h3 class="heading d-xs-none">
+                            {{ section.settings.ph_heading3 }}
+                        </h3>
+                        <div class="dropdown-tag d-xs-none">
+                             {{ section.settings.ph_para7 }}
+                            <i class="icon-down-arrow"></i>
+                        </div>
+                        <div class="d-relative d-xs-none">
+                            <div class="dropdown-content">
+                                 {{ section.settings.ph_para8 }}
+                            </div>
+                        </div>
+                        <p class="lg-text">
+                             {{ section.settings.ph_para9 }}
+                        </p>
+                        <p>
+                             {{ section.settings.ph_para10 }}
+                        </p>
+                        <p>
+                             {{ section.settings.ph_para11 }}
+                        </p>
+                    </div>
+                </div>
+                <h3 class="heading d-md-none">
+                     {{ section.settings.ph_heading4 }}
+                </h3>
+                <div class="dropdown-tag d-md-none short">
+                     {{ section.settings.ph_para12 }}
+                    <i class="icon-down-arrow"></i>
+                </div>
+                <div class="d-relative  d-md-none">
+                    <div class="dropdown-content">
+                        {{ section.settings.ph_para13 }}
+                    </div>
+                </div>
+                <div class="bi-col">
+                    <div class="left-col  condensed p-rel">
+                        <h3 class="heading d-xs-none">
+                            {{ section.settings.ph_heading5 }}
+                        </h3>
+                        <div class="dropdown-tag d-xs-none">
+                            {{ section.settings.ph_para14 }}
+                            <i class="icon-down-arrow"></i>
+                        </div>
+                        <div class="d-relative  d-xs-none">
+                            <div class="dropdown-content">
+                                {{ section.settings.ph_para15 }}
+
+                            </div>
+                        </div>
+                        <p>
+                            {{ section.settings.ph_para16 }}
+                        </p>
+                        <p>
+                            {{ section.settings.ph_para17 }}
+                        </p>
+                        <p class="large">
+                            {{ section.settings.ph_para18 }}
+                        </p>
+
+                    </div>
+                    <div class="right-col blurred">
+                        <img src="{{ section.settings.woman_peace | img_url: '' }}">
+                        <img src="{{ section.settings.woman_peace | img_url: '' }}">
+
+                    </div>
+                </div>
+                <h3 class="heading d-md-none">
+                   {{ section.settings.ph_heading6 }}
+                </h3>
+
+                <div class="bi-col f-xs-column">
+                    <div class="left-col blurred">
+                        <img src="{{ section.settings.replinish | img_url: '' }}" class="ll-delay" width="571"
+                            height="461">
+                        <img src="{{ section.settings.replinish | img_url: '' }}" class="ll-delay" width="571"
+                            height="461">
+                    </div>
+                    <div class="right-col condensed">
+                        <h3 class="heading d-xs-none">
+                            {{ section.settings.ph_heading7 }}
+                        </h3>
+                        <br />
+                        <p>
+                            {{ section.settings.ph_para19 }}
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+{% schema %}
+  {
+    "name": "PH Maintenance Part",
+    "settings": [
+        {
+          "type": "text",
+          "id": "ph_heading1",
+          "label": "PH Heading 1"
+        },
+        {
+          "type": "text",
+          "id": "ph_sub_heading1",
+          "label": "PH Sub Heading 1"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para1",
+          "label": "PH Para 1"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para2",
+          "label": "PH Para 2"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para3",
+          "label": "PH Para 3"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para4",
+          "label": "PH Para 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "vaginal_ph_scale",
+          "label": "Vaginal PH Scale"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_heading2",
+          "label": "PH Heading 2"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para5",
+          "label": "PH Para 5"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para6",
+          "label": "PH Para 6"
+        },
+        {
+          "type": "image_picker",
+          "id": "microbiome",
+          "label": "Microbiome"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_heading3",
+          "label": "PH Heading 3"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para7",
+          "label": "PH Para 7"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para8",
+          "label": "PH Para 8"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para9",
+          "label": "PH Para 9"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para10",
+          "label": "PH Para 10"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para11",
+          "label": "PH Para 11"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_heading4",
+          "label": "PH Heading 4"
+        },
+         {
+          "type": "textarea",
+          "id": "ph_para12",
+          "label": "PH Para 12"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para13",
+          "label": "PH Para 13"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_heading5",
+          "label": "PH Heading 5"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para14",
+          "label": "PH Para 14"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para15",
+          "label": "PH Para 15"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para16",
+          "label": "PH Para 16"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para17",
+          "label": "PH Para 17"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para18",
+          "label": "PH Para 18"
+        },
+        {
+          "type": "image_picker",
+          "id": "woman_peace",
+          "label": "Woman Peace"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_heading6",
+          "label": "PH Heading 6"
+        },
+        {
+          "type": "image_picker",
+          "id": "replinish",
+          "label": "Replinish"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_heading7",
+          "label": "PH Heading 7"
+        },
+        {
+          "type": "textarea",
+          "id": "ph_para19",
+          "label": "PH Para 19"
+        }
+    ],
+    "presets": [
+                {
+                  "category": "PH Maintenance Part",
+                  "name": "PH Maintenance Section"
+                } 
+             ]
+  }
+{% endschema %}

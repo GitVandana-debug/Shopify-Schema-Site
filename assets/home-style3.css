@@ -1,0 +1,485 @@
+
+            .hero-section {
+                background-repeat: no-repeat;
+                background-position: 10px 0px;
+                padding-top: 155px;
+            }
+
+            .hero-section .container {
+                max-width: 1320px;
+            }
+
+
+            .hero-section .bi-col {
+                column-gap: 62px;
+            }
+
+
+            .hero-section .left-col img {
+                max-width: 588px;
+                display: block;
+            }
+
+            .hero-section .left-col {
+                max-width: 45%;
+            }
+
+
+            .hero-section .bi-column {
+                padding-top: 90px;
+            }
+
+
+            .hero-section .list {
+                display: grid;
+                grid-template-columns: 50% auto;
+                margin-left: 18px;
+                padding-top: 13px;
+
+                grid-row-gap: 15px;
+                grid-column-gap: 15px;
+                max-width: 590px;
+                margin-right: 25px;
+            }
+
+            .list span {
+                position: relative;
+                padding-left: 26px;
+                line-height: 105%;
+            }
+
+            .list span:before {
+                display: inline-block;
+                left: 0;
+                position: relative;
+                font-size: 12px;
+                top: -2px;
+            }
+
+            .hero-section .list span:before {
+                position: absolute;
+                top: 2px;
+            }
+
+
+            .hero-section button.lg {
+                padding: 14px 71px;
+                margin-top: -12px;
+            }
+
+            svg {
+                margin-top: 34px;
+                margin-bottom: 29px;
+            }
+
+            .aaogf-badge {
+
+                border-radius: 35px;
+                background: rgba(222, 85, 134, 0.65);
+                align-items: center;
+                max-width: 598px;
+                padding: 25px 42px 22px 34px;
+                display: flex;
+                gap: 29px;
+                margin-top: 13px;
+            }
+
+
+            .aaogf-badge img, .aaogf-badge > div {
+                position: relative;
+                z-index: 1;
+            }
+
+
+            .hero-section .p-rel {
+                max-width: max-content;
+            }
+
+            .aaogf-badge img {
+                max-width: 95px;
+            }
+
+            .hero-section .condensed {
+                padding-top: 15px;
+                max-width: 50%;
+            }
+
+
+            p.title {
+                color: var(--Ebb, #E8E4E1);
+                font-family: Roboto Slab;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 27.135px; /* 135.677% */
+                letter-spacing: 0.6px;
+                text-transform: uppercase;
+            }
+
+
+            .hero-section p.footnote {
+                color: var(--Ebb, #E8E4E1);
+                font-family: Roboto Slab;
+                font-size: 18px;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 36.135px; /* 200.752% */
+                text-transform: capitalize;
+                opacity: 0.53;
+            }
+
+            .hero-section .heading-sm {
+                margin-top: 15px;
+                font-size: 48px;
+                position: relative;
+            }
+
+            .hero-section .heading-sm img {
+                position: absolute;
+                width: 100px;
+                right: 54px;
+                top: 7px;
+            }
+
+            .hero-section .large-text {
+                margin-top: 7px;
+                /*color: var(--Blue, #2D1D88);*/
+                font-size: 24px;
+                line-height: 37.075px; /* 154.48% */
+                letter-spacing: -0.48px;
+                margin-top: 24px;
+            }
+
+            .complete-support .list.colored,
+            .hero-section .list {
+                background-image: linear-gradient(180deg, rgba(222, 85, 134, 0.13) 0%, rgba(222, 85, 134, 0.00) 93.29%);
+                padding: 33px 51px 52px 41px;
+                border-radius: 10px;
+                margin-top: 17px;
+                margin-left: -29px;
+            }
+
+            .complete-support .colored span.icon-heart,
+            .hero-section span.icon-heart {
+                font-weight: 500 !important;
+                line-height: 20px !important;
+            }
+
+            .main-video {
+                border-radius: 46px;
+                max-width: 1170px;
+                margin: auto;
+                overflow: hidden;
+                margin-top: 34px;
+                /*margin-bottom: 29px;*/
+            }
+
+            .main-video .w-bottom-bar-lower.w-css-reset {
+                padding-left: 25px !important;
+                padding-right: 35px !important;
+            }
+
+            .main-video .w-bottom-bar-middle-inner canvas {
+                max-width: 100% !important;
+            }
+
+            .hero-section .left-col img.hero-bg {
+                position: absolute;
+                z-index: 0;
+                max-width: initial;
+                width: 800px;
+                top: 15px;
+                left: 35px;
+                top: -150px;
+                left: -101px;
+            }
+
+            .hero-section .container {
+                position: relative;
+            }
+
+            #prod-img {
+                position: relative;
+                z-index: 1;
+
+            }
+
+            .hero-section .subtitle {
+                line-height: 18px;
+                letter-spacing: 0.13em;
+            }
+
+            @media screen  and (min-width: 769px) and (max-width: 1439px) {
+                .hero-section .left-col img.hero-bg {
+                    position: absolute;
+                    z-index: 0;
+                    max-width: initial;
+                    width: 55vw;
+                    top: 1.041vw;
+                    left: 35px;
+                    top: -10.41444vw;
+                    left: -0.13vw;
+
+
+                }
+
+                .hero-section .left-col img#prod-img {
+                    max-width: 20.8vw;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: 3.12vw;
+                }
+
+                .hero-section .container {
+                    position: relative;
+                }
+
+            }
+
+            .small-title {
+                color: #1C0A7E;
+                text-align: center;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 37.075px; /* 185.376% */
+            }
+
+            .rotating {
+                position: absolute;
+            }
+
+            @media screen  and (min-width: 769px) {
+                .rotating {
+                    position: absolute;
+                    width: 123px;
+                    top: 156px;
+                    left: 32px;
+                }
+            }
+
+            @media screen and (max-width: 768px) {
+
+                .main-video {
+                    border-radius: 0;
+                    width: auto;
+                    margin-top: 6.25vw;
+                }
+
+                .main-video .w-bottom-bar-lower.w-css-reset {
+                    padding-left: 1vw !important;
+                    padding-right: 2vw !important;
+                }
+
+                .hero-section > .txt-center {
+                    font-size: 5vw;
+                    line-height: 11.5vw;
+                    max-width: 100% !important;
+                    letter-spacing: 0 !important;
+                }
+
+                .hero-section .container.bi-col .left-col {
+                    padding-bottom: 6.25vw !important;
+                }
+
+                .hero-section .desk {
+                    display: none !important;
+                }
+
+                .hero-section a button.center {
+                    margin-top: 0 !important;
+                }
+
+
+                .hero-section .left-col img.hero-bg {
+                    position: absolute;
+                    z-index: 0;
+                    max-width: initial !important;
+                    width: 80vw !important;
+                    top: 75vw !important;
+                    left: -1vw !important;
+
+                    width: 109vw !important;
+                    top: 61vw !important;
+                    left: -3vw !important;
+                }
+
+
+                .hero-section {
+                    padding-top: 20px;
+                    background-position: 0 48.5%;
+                    background-size: 103%;
+                    padding-top: 6.25vw;
+
+                }
+
+                svg {
+                    max-width: 100%;
+                }
+
+                .hero-section .list {
+                    grid-template-columns: 100%;
+                    grid-row-gap: 0px;
+                    margin-top: 0;
+                    margin-right: 3.125vw;
+                    margin-left: 3.125vw;
+                    max-width: 100%;
+                    padding: 10.9vw 7vw 2.5vw 10.9vw;
+                }
+
+                .list span {
+                    font-size: 5vw;
+                    line-height: 7.5vw;
+                }
+
+
+                .list span:before {
+                    font-size: 4vw;
+                }
+
+                .hero-section .list span:before {
+                    top: 1.125vw;
+                }
+
+                .hero-section .left-col img {
+                    max-width: 106%;
+                    margin-left: -11vw;
+                    margin-top: 5vw;
+                    width: 110%;
+                }
+
+                .hero-section .left-col img.d-md-none {
+                    position: absolute;
+                    margin-top: 25%;
+                    margin-left: 2%;
+                    max-width: 25vw;
+
+                }
+
+                .hero-section .condensed {
+                    padding-top: 10vw !important;
+                }
+
+                .hero-section .list span {
+                    margin-bottom: 5vw;
+                    padding-left: 10vw;
+                }
+
+                .hero-section button.lg {
+                    padding: 4.3vw 25vw;
+                    font-size: 5vw;
+                    margin: auto;
+                    line-height: 9.6vw;
+                    margin-top: 6.25vw;
+                }
+
+
+                .hero-section .heading-sm img {
+                    width: 16.8vw;
+                    right: 1.25vw;
+                    top: 1.25vw;
+                }
+
+                .hero-section .heading-sm {
+
+                    font-size: 7.975vw;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 114%;
+                    letter-spacing: -0.4218px;
+
+
+                    margin-top: 5vw;
+                    margin-bottom: 2.2vw;
+                }
+
+                .hero-section button.center {
+                    margin-top: 20px;
+                    margin-top: 6.25vw;
+                }
+
+                .hero-section .large-text {
+                    font-size: 4.06vw;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 5.9vw; /* 152.51% */
+                    letter-spacing: -0.08vw;
+                    margin-top: 3.4vw;
+                }
+
+
+                .video-mob {
+                    margin: 50px 10px 30px;
+                    max-width: calc(100% - 20px);
+                    margin: 15.625vw 3.125vw 9.375vw;
+                    max-width: calc(100% - 6.25vw);
+                }
+
+                .hero-section > .txt-center {
+                    max-width: 79%;
+                    margin: auto;
+                    letter-spacing: 0.13em;
+                    text-transform: uppercase;
+                }
+
+                .aaogf-badge:after {
+                    content: none;
+                }
+
+
+                .aaogf-badge img {
+                    max-width: 26.56vw !important;
+                }
+
+                p.title {
+                    font-size: 3.75vw;
+                    line-height: 6.25vw;
+                }
+
+                .hero-section p.footnote {
+                    font-size: 3.75vw;
+                    line-height: 11.25vw;
+                    margin-top: -1vw;
+                }
+
+                .aaogf-badge {
+                    max-width: 97vw;
+                    width: 100vw;
+                    margin-left: -20px;
+                    border-radius: 0px;
+                    padding: 12px 0px 12px 10px;
+                    gap: 10px;
+                    margin-left: -6.25vw;
+                    padding: 3.75vw 0px 3.75vw 3.125vw;
+                }
+
+
+            }
+
+            .cap i {
+                font-style: italic;
+            }
+
+            .cap {
+                text-transform: capitalize !important;
+            }
+
+            @keyframes rotating {
+                from {
+                    -ms-transform: rotate(0deg);
+                    -moz-transform: rotate(0deg);
+                    -webkit-transform: rotate(0deg);
+                    -o-transform: rotate(0deg);
+                    transform: rotate(0deg);
+                }
+                to {
+                    -ms-transform: rotate(360deg);
+                    -moz-transform: rotate(360deg);
+                    -webkit-transform: rotate(360deg);
+                    -o-transform: rotate(360deg);
+                    transform: rotate(360deg);
+                }
+            }
+
+            .rotating {
+                animation: rotating 5s linear infinite;
+            }

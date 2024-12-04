@@ -1,0 +1,199 @@
+ <section class="uti-tips">
+    <div class="container">
+        <div class="bi-col f-xs-column">
+            <div class="left-col">
+                <h2 class="heading">
+                    {{ section.settings.uti_tips_heading }} <span class="lower">{{ section.settings.uti_tips_span_heading }}</span>
+                    {{ section.settings.uti_tips_sub_heading }}
+                </h2>
+                <p class="p-26">
+                    <b>
+                        {{ section.settings.uti_tips_para1 }}
+                    </b>
+                </p>
+            </div>
+            <div class="right-col">
+                <p class="p-20">
+                    {{ section.settings.uti_tips_para2 }}
+                </p>
+                <p>
+                    {{ section.settings.uti_tips_para3 }}
+                </p>
+            </div>
+        </div>
+        <h2 class="heading-md b-bottom txt-center">{{ section.settings.uti_tips_heading2 }}</h2>
+        <div class="table">
+            <div class="cell">
+               {{ section.settings.uti_tips_whats }}
+            </div>
+            <div class="cell">
+                <em>
+                    {{ section.settings.uti_tips_para4 }}
+                </em>
+            </div>
+            <div class="cell fl">
+                {{ section.settings.uti_tips_itching }}
+            </div>
+            <div class="cell fl">
+                <i class="icon-cross"></i> &nbsp;{{ section.settings.uti_tips_no }}
+            </div>
+            <div class="cell">
+                {{ section.settings.uti_tips_burning_with_urination }}
+            </div>
+            <div class="cell">
+                <i class="icon-tick"></i> &nbsp;{{ section.settings.uti_tips_para5 }}
+            </div>
+            <div class="cell fl">
+                {{ section.settings.uti_tips_burning }}
+            </div>
+            <div class="cell fl">
+                <i class="icon-tick"></i> &nbsp;{{ section.settings.uti_tips_yes }}
+            </div>
+            <div class="cell">
+                {{ section.settings.uti_tips_pain }}
+            </div>
+            <div class="cell">
+                <i class="icon-cross"></i> &nbsp;{{ section.settings.uti_tips_no }}
+            </div>
+            <div class="cell fl">
+                {{ section.settings.uti_tips_effects }}
+            </div>
+            <div class="cell fl">
+                <i class="icon-tick"></i> &nbsp;{{ section.settings.uti_tips_para6 }}
+            </div>
+            <div class="cell">
+                {{ section.settings.uti_tips_contagious }}
+            </div>
+            <div class="cell">
+                <i class="icon-cross"></i> &nbsp;{{ section.settings.uti_tips_no }}
+            </div>
+            <div class="cell fl">
+                {{ section.settings.uti_tips_chances }}
+            </div>
+            <div class="cell fl">
+                {{ section.settings.uti_tips_high }}
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+
+{% schema %}
+  {
+    "name": "UTI Tips Part",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "uti_tips_heading",
+        "label": "UTI Tips Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_span_heading",
+        "label": "UTI Tips Span Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_sub_heading",
+        "label": "UTI Tips Sub Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_para1",
+        "label": "UTI Tips Para1"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_para2",
+        "label": "UTI Tips Para2"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_para3",
+        "label": "UTI Tips Para3"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_heading2",
+        "label": "UTI Tips Heading2"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_whats",
+        "label": "UTI Tips What Text"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_para4",
+        "label": "UTI Tips Para4"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_itching",
+        "label": "UTI Tips Itching"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_no",
+        "label": "UTI Tips No"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_burning_with_urination",
+        "label": "UTI Tips Burning With Urination"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_para5",
+        "label": "UTI Tips Para5"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_burning",
+        "label": "UTI Tips Burning"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_yes",
+        "label": "UTI Tips Yes"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_pain",
+        "label": "UTI Tips Pain"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_effects",
+        "label": "UTI Tips Effects"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_para6",
+        "label": "UTI Tips Para6"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_contagious",
+        "label": "UTI Tips Contagious"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_chances",
+        "label": "UTI Tips Chances"
+      },
+      {
+        "type": "textarea",
+        "id": "uti_tips_high",
+        "label": "UTI Tips High"
+      },
+    ],
+    "presets": [
+                {
+                  "category": "UTI Tips Part",
+                  "name": "UTI Tips Section"
+                } 
+             ]
+  }
+{% endschema %}

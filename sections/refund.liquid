@@ -1,0 +1,90 @@
+ <section class="refund blue-bg">
+    <div class="container">
+        <div class="bi-col f-xs-column">
+            <div class="left-col">
+                <img src="{{ section.settings.product_bottom | img_url: '' }}">
+            </div>
+            <div class="right-col condensed">
+                <h2 class="heading-lg">
+                    {{ section.settings.refund_text }}
+                </h2>
+                <p>
+                    {{ section.settings.refund_para }}
+                    <a href="mailto:{{ section.settings.refund_mail }}" class="link">{{ section.settings.refund_mail }}</a>
+                    {{ section.settings.refund_sub_para }}
+                    <br />
+                    <br />
+                </p>
+                <div class="buttons">
+                    <a
+                        href="{{ section.settings.buy_now_url }}">
+                        <button class="fl">
+                           {{ section.settings.buy_now }}
+                        </button>
+                    </a>
+                    <a href="mailto:{{ section.settings.refund_mail }}">
+                        <button>{{ section.settings.refund_contact }}
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+{% schema %}
+  {
+    "name": "Refund Part",
+    "settings": [
+       {
+          "type": "image_picker",
+          "id": "product_bottom",
+          "label": "Product Bottom"
+       },
+       {
+          "type": "text",
+          "id": "refund_text",
+          "label": "Refund Text"
+       },
+       {
+          "type": "textarea",
+          "id": "refund_para",
+          "label": "Refund Para"
+       },
+       {
+          "type": "textarea",
+          "id": "refund_mail",
+          "label": "Refund Mail"
+       },
+       {
+          "type": "textarea",
+          "id": "refund_sub_para",
+          "label": "Refund Sub Para"
+       },
+       {
+          "type": "text",
+          "id": "buy_now",
+          "label": "Buy Now"
+       },
+       {
+          "type": "url",
+          "id": "buy_now_url",
+          "label": "Buy Now URL",
+       },
+       {
+          "type": "text",
+          "id": "refund_contact",
+          "label": "Refund Contact",
+       },
+      
+    ],
+    "presets": [
+                {
+                  "category": "Refund Part",
+                  "name": "Refund Section"
+                } 
+             ]
+  }
+{% endschema %}
